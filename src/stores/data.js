@@ -12,12 +12,15 @@ export const useGameDataStore = defineStore('gameData', {
     data: {
       goals: {
         
+      },
+      generalInput: {
       }
     }
   }),
 
   actions: {
     updateModule(moduleName, data) {
+      console.log("ModuleName:", moduleName)
       console.log("Data:", data)
       this.data = {
         ...this.data,
@@ -29,7 +32,7 @@ export const useGameDataStore = defineStore('gameData', {
     },
 
     saveToLocalStorage() {
-      console.log('Saving to local storage')
+      //console.log('Saving to local storage')
       localStorage.setItem('gameData', JSON.stringify({
         data: this.data,
         timestamp: this.timestamp
@@ -37,7 +40,7 @@ export const useGameDataStore = defineStore('gameData', {
     },
 
     loadFromLocalStorage() {
-      console.log('Loading from local storage')
+      //console.log('Loading from local storage')
       const stored = localStorage.getItem('gameData')
       if (stored) {
         const { data, timestamp } = JSON.parse(stored)
@@ -47,7 +50,7 @@ export const useGameDataStore = defineStore('gameData', {
           this.notifyModules()
         }
       }
-      console.log('Loaded data:', this.data)
+      //console.log('Loaded data:', this.data)
     },
 
     async saveToServer() {

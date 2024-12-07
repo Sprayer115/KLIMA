@@ -14,6 +14,12 @@ const routes = [
         meta: { requiresAuth: true }
       },
       {
+        path: '/general-input',
+        name: 'GeneralInput',
+        component: () => import('@/views/GeneralInput.vue'),
+        meta: { requiresAuth: true }
+      },
+      {
         path: 'settings',
         name: 'Settings',
         component: () => import('@/views/Admin.vue'),

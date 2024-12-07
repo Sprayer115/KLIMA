@@ -14,7 +14,8 @@ export const useGameDataStore = defineStore('gameData', {
         
       },
       generalInput: {
-      }
+      },
+      personalUndAbteilungen: {}
     }
   }),
 

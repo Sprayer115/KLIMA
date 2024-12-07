@@ -20,6 +20,12 @@ const routes = [
         meta: { requiresAuth: true }
       },
       {
+        path: '/personal-und-abteilungen',
+        name: 'PersonalUndAbteilungen',
+        component: () => import('@/views/PersonalUndAbteilungen.vue'),
+        meta: { requiresAuth: true}
+      },
+      {
         path: 'settings',
         name: 'Settings',
         component: () => import('@/views/Admin.vue'),

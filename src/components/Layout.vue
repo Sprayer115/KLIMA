@@ -13,6 +13,7 @@
             Dashboard
           </router-link>
           <router-link to="/general-input" class="text-sm font-medium dark:text-slate-300 dark:hover:text-white transition-colors">Allgemeine Eingabe</router-link>
+          <router-link to="/personal-und-abteilungen" class="text-sm font-medium dark:text-slate-300 dark:hover:text-white transition-colors">Personal & Abteilungene</router-link>
           <router-link 
             v-if="isAdmin" 
             to="/settings" 

@@ -31,7 +31,7 @@
             <div v-for="(value, key) in localPersEinsatz.Abtplanung" :key="key" class="flex flex-col">
               <Label :for="`abtplanung-${key}`">{{ getGoalLabel(key) }}</Label>
               <Select
-                :model-value="abtplanungComputed[key].value"
+                :model-value="value.toString()"
                 @update:model-value="updatePersonalUndAbteilungen(`Abtplanung.${key}`, $event)"
                 class="mt-1 w-full"
               >
@@ -45,6 +45,7 @@
                       v-for="n in getMaxForSelect(key)"
                       :key="n"
                       :value="n.toString()"
+                      
                     >
                       {{ n }}
                     </SelectItem>

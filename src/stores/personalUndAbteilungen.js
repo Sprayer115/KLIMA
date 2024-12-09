@@ -169,14 +169,16 @@ export const usePersonalUndAbteilungenStore = defineStore('personalUndAbteilunge
       gameDataStore.registerModuleHandler(this.updateFromGameData.bind(this))
 
       // Check local storage immediately
-      const stored = localStorage.getItem('gameData')
+      const stored = localStorage.getItem('gameCurrentPeriod')
       if (stored) {
-        const { data } = JSON.parse(stored)
+        const parsed= JSON.parse(stored)
+        const data = parsed.currentPeriodData.decisions.data
+
         if (data.personalUndAbteilungen) {
           this.updatePersonalUndAbteilungen(data.personalUndAbteilungen)
         } else {
           // Sync initial state with gameDataStore if no data in localStorage
-          gameDataStore.data.personalUndAbteilungen = this.$state
+          gameDataStore.currentPeriodData.decisions.data.personalUndAbteilungen = this.$state
         }
       }
     }

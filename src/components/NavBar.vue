@@ -8,6 +8,7 @@
     
     <!-- Authenticated Navigation -->
     <div v-else class="flex items-center gap-4">
+      <span style="color:red"> Periode: {{ gameDataStore.metadata.currentPeriod }}</span>
       <ModeToggle />
  
       <DropdownMenu>
@@ -44,7 +45,9 @@
     import { useAuthStore } from '@/stores/auth'
     import { Button } from '@/components/ui/button'
     import { useRouter } from 'vue-router'
+    import { useGameDataStore } from '@/stores/data';
 
+    const gameDataStore = useGameDataStore()
     const router = useRouter()
     const auth = useAuthStore()
     const isAuthenticated = computed(() => !!auth.token)

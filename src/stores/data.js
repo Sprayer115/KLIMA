@@ -1,112 +1,169 @@
 // stores/data.js
-import { toast } from '@/components/ui/toast'
 import { defineStore } from 'pinia'
 import { useAuthStore } from './auth'
+import { toast } from '@/components/ui/toast'
 
-export const useGameDataStore = defineStore('gameData', {
+export const useGameDataStore = defineStore('game', {
   state: () => ({
-    lastSaved: null,
+    metadata: {
+      currentPeriod: 1,
+      lastModified: null
+    },
+    currentPeriodData: {
+      decisions: {
+        data: {
+          goals: {},
+          generalInput: {},
+          personalUndAbteilungen: {}
+        },
+        timestamp: null
+      }
+    },
     isDirty: false,
-    timestamp: null,
-    moduleHandlers: [],
-    data: {
-      goals: {
-        
-      },
-      generalInput: {
-      },
-      personalUndAbteilungen: {}
-    }
+    moduleHandlers: []
   }),
 
   actions: {
     updateModule(moduleName, data) {
-      console.log("ModuleName:", moduleName)
-      console.log("Data:", data)
-      this.data = {
-        ...this.data,
+      this.currentPeriodData.decisions.data = {
+        ...this.currentPeriodData.decisions.data,
         [moduleName]: {...data}
       }
+      console.log("updating module", moduleName, this.currentPeriodData.decisions.data)
       this.isDirty = true
-      this.timestamp = Date.now() / 1000
+      this.currentPeriodData.decisions.timestamp = Date.now() / 1000
       this.saveToLocalStorage()
     },
 
+    // Basis-Speicher-Operationen
     saveToLocalStorage() {
-      //console.log('Saving to local storage')
-      localStorage.setItem('gameData', JSON.stringify({
-        data: this.data,
-        timestamp: this.timestamp
+      localStorage.setItem('gameCurrentPeriod', JSON.stringify({
+        metadata: this.metadata,
+        currentPeriodData: this.currentPeriodData
       }))
     },
 
     loadFromLocalStorage() {
-      //console.log('Loading from local storage')
-      const stored = localStorage.getItem('gameData')
+      const stored = localStorage.getItem('gameCurrentPeriod')
       if (stored) {
-        const { data, timestamp } = JSON.parse(stored)
-        if (!this.timestamp || timestamp > this.timestamp) {
-          this.data = data
-          this.timestamp = timestamp
+        const { metadata, currentPeriodData } = JSON.parse(stored)
+        if (!this.currentPeriodData.decisions.timestamp || 
+            currentPeriodData.decisions.timestamp > this.currentPeriodData.decisions.timestamp) {
+          this.metadata = metadata
+          this.currentPeriodData = currentPeriodData
           this.notifyModules()
         }
       }
-      //console.log('Loaded data:', this.data)
     },
 
+    // Server-Kommunikation
     async saveToServer() {
       try {
-        const response = await fetch('/api/save', {
+        const response = await fetch('/api/periods/current', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
             'Authorization': `Bearer ${useAuthStore().token}`
           },
           body: JSON.stringify({
-            data: this.data,
-            timestamp: this.timestamp
+            metadata: this.metadata,
+            periodData: this.currentPeriodData
           })
         })
         const result = await response.json()
-        this.lastSaved = new Date()
-        this.timestamp = result.timestamp
+        this.metadata.lastModified = new Date().toISOString()
+        this.currentPeriodData.decisions.timestamp = result.timestamp
         this.isDirty = false
         this.saveToLocalStorage()
       } catch (error) {
-        toast({ title: 'Error', description: error.message, variant: 'destructive' })
-        console.error('Save failed:', error)
+        toast({ 
+          title: 'Error', 
+          description: error.message, 
+          variant: 'destructive' 
+        })
       }
     },
 
     async load() {
       this.loadFromLocalStorage()
       try {
-        const response = await fetch('/api/load', {
-          method: 'GET',
+        const response = await fetch('/api/periods/current', {
           headers: {
-            'Content-Type': 'application/json',
             'Authorization': `Bearer ${useAuthStore().token}`
           }
         })
         const serverData = await response.json()
-        console.log('timestamp:', this.timestamp)
-        if (!this.timestamp || serverData.timestamp > this.timestamp) {
-          console.log('Loading from server:', serverData)
-          this.data = serverData.data
-          this.timestamp = serverData.timestamp
+        console.log('Server data:', serverData)
+        console.log('Current period data:', this.currentPeriodData)
+        // Überprüfe, ob die Serverdaten neuer sind als die lokal gespeicherten
+        if (!this.currentPeriodData.decisions.timestamp || 
+            serverData.periodData.decisions.timestamp > this.currentPeriodData.decisions.timestamp) {
+          this.metadata = serverData.metadata
+          this.currentPeriodData = serverData.periodData
           this.notifyModules()
           this.saveToLocalStorage()
         }
       } catch (error) {
-        toast({ title: 'Error', description: error.message, variant: 'destructive' })
-        console.error('Load failed:', error)
+        toast({ 
+          title: 'Error', 
+          description: error.message, 
+          variant: 'destructive' 
+        })
       }
-      console.log('Loaded data:', this.data)
-    
     },
 
+    // Zusätzliche Methoden für Periodenzugriff
+    async loadPeriodData(periodNumber) {
+      try {
+        const response = await fetch(`/api/periods/${periodNumber}`, {
+          headers: {
+            'Authorization': `Bearer ${useAuthStore().token}`
+          }
+        })
+        return await response.json()
+      } catch (error) {
+        toast({ 
+          title: 'Error', 
+          description: error.message, 
+          variant: 'destructive' 
+        })
+        return null
+      }
+    },
+
+    async advancePeriod() {
+      try {
+        // Speichere aktuelle Periode
+        await this.saveToServer()
+        
+        // Hole neue Periodennummer und kopierte Daten vom Server
+        const response = await fetch('/api/periods/advance', {
+          method: 'POST',
+          headers: {
+            'Authorization': `Bearer ${useAuthStore().token}`
+          }
+        })
+        const newPeriodData = await response.json()
+        
+        // Update lokalen State
+        this.metadata = newPeriodData.metadata
+        this.currentPeriodData = newPeriodData.periodData
+        this.saveToLocalStorage()
+        this.notifyModules()
+      } catch (error) {
+        toast({ 
+          title: 'Error', 
+          description: error.message, 
+          variant: 'destructive' 
+        })
+      }
+    },
+
+    // Module Handler Methoden
     notifyModules() {
-      this.moduleHandlers.forEach(handler => handler(this.data))
+      this.moduleHandlers.forEach(handler => 
+        handler(this.currentPeriodData.decisions.data)
+      )
     },
 
     registerModuleHandler(handler) {

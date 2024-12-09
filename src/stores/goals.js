@@ -48,6 +48,7 @@ export const useGoalsStore = defineStore('goals', {
     setGoal(name, value) {
       if (value >= 0 && value <= 5) {
         this.goals[name] = value
+        console.log("updating module goals", this.goals)
         useGameDataStore().updateModule('goals', this.goals)
       }
     },
@@ -63,13 +64,15 @@ export const useGoalsStore = defineStore('goals', {
       gameDataStore.registerModuleHandler(this.updateFromGameData.bind(this))
       
       // Check local storage immediately
-      const stored = localStorage.getItem('gameData')
+      const stored = localStorage.getItem('gameCurrentPeriod')
       if (stored) {
-        const { data } = JSON.parse(stored)
+        const parsed = JSON.parse(stored)
+        const data = parsed.currentPeriodData.decisions.data
         if (data.goals) {
           this.goals = {...data.goals}
         }
       }
+      console.log("Goals initialized", this.goals)
     }
   }
 })

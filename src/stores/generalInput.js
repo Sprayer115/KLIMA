@@ -53,12 +53,13 @@ export const useGeneralInputStore = defineStore('generalInput', {
       gameDataStore.registerModuleHandler(this.updateFromGameData.bind(this))
 
       // Check local storage immediately
-      const stored = localStorage.getItem('gameData')
+      const stored = localStorage.getItem('gameCurrentPeriod')
       if (stored) {
-        const { data } = JSON.parse(stored)
+        const parsed = JSON.parse(stored)
+        const data = parsed.currentPeriodData.decisions.data
         if (data.generalInput) {
           this.$state = { ...data.generalInput }
-        } else {gameDataStore.data.generalInput = this.$state}
+        } else {gameDataStore.currentPeriodData.decisions.data.personalUndAbteilungen = this.$state}
       }
     }
   }

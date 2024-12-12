@@ -68,8 +68,11 @@ export const useGoalsStore = defineStore('goals', {
       if (stored) {
         const parsed = JSON.parse(stored)
         const data = parsed.currentPeriodData.decisions.data
-        if (data.goals) {
+        if (data.goals && Object.keys(data.goals).length > 0) {
           this.goals = {...data.goals}
+        } else {
+          console.log("Goals initialized from standard",)
+          gameDataStore.currentPeriodData.decisions.data.goals = this.goals
         }
       }
       console.log("Goals initialized", this.goals)

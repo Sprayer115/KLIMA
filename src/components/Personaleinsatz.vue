@@ -135,7 +135,7 @@
     </div>
   </template>
   
-  <script setup lang="ts">
+<script setup lang="ts">
   import { ref, inject, onMounted, onActivated } from 'vue'
   import { usePersonalUndAbteilungenStore } from '@/stores/personalUndAbteilungen'
   import { useGameDataStore } from '@/stores/data'
@@ -145,7 +145,6 @@
   import { Button } from '@/components/ui/button'
   import { Input } from '@/components/ui/input'
   import { useToast } from '@/components/ui/toast/use-toast'
-
 
   const { toast } = useToast()
     // Inject the store

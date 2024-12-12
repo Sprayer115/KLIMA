@@ -1,6 +1,6 @@
 <template>
     <div class="container mx-auto mt-20">
-      <h1>Klima</h1>
+      <h1>Forschung, Investition und ZGB</h1>
     </div>
   </template>
   

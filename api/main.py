@@ -15,6 +15,7 @@ import uuid
 app = FastAPI()
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
 STORAGE_PATH = "storage/gamedata"
+RESULT_INITIAL_PATH = "storage/hospital_data.json"
 class UserCreate(BaseModel):
     email: str
     password: str
@@ -290,7 +291,7 @@ async def change_password(
     
     return {"message": "Passwort erfolgreich geändert"}
 
-@app.post("/api/save")
+@app.post("/api/save", deprecated=True)
 async def save_game_data(game_data: GameData, current_user: dict = Depends(get_current_user)):
     user_file = Path(f"{STORAGE_PATH}/{current_user['email']}.json")
     user_file.parent.mkdir(parents=True, exist_ok=True)
@@ -312,7 +313,7 @@ async def save_game_data(game_data: GameData, current_user: dict = Depends(get_c
     
     return {"status": "success", "timestamp": game_data.timestamp}
 
-@app.get("/api/load")
+@app.get("/api/load", deprecated=True)
 async def load_game_data(current_user: dict = Depends(get_current_user)):
     print(f"Loading data for user: {current_user['email']}")
     user_file = Path(f"{STORAGE_PATH}/{current_user['email']}.json")
@@ -334,6 +335,7 @@ async def get_current_period(current_user: dict = Depends(get_current_user)):
     game_file = get_user_game_file(current_user['email'])
     
     if not game_file.exists():
+        initial_results = json.loads(Path(RESULT_INITIAL_PATH).read_text())
         # Initialize new game with the unified structure
         game_state = {
             "metadata": {
@@ -346,13 +348,18 @@ async def get_current_period(current_user: dict = Depends(get_current_user)):
                     "data": {
                         "goals": {},
                         "generalInput": {},
-                        "personalUndAbteilungen": {}
+                        "personalUndAbteilungen": {},
+                        "fallpauschalen": [],
                     },
                     "timestamp": datetime.now().timestamp()
                 }
             },
-            "results": {}
+            "results": {
+                0: initial_results['Periode']
+            }
         }
+        print(game_state)
+        print(initial_results['Periode'])
         game_file.parent.mkdir(parents=True, exist_ok=True)
         game_file.write_text(json.dumps(game_state))
     else:
@@ -365,7 +372,7 @@ async def get_current_period(current_user: dict = Depends(get_current_user)):
         "metadata": game_state["metadata"],
         "periodData": {
             "decisions": game_state["decisions"].get(current_period, {}),
-            "results": game_state["results"].get(current_period, {})
+            #"results": game_state["results"].get(current_period, {})
         }
     }
 
@@ -409,12 +416,18 @@ async def get_period(
     game_state = json.loads(game_file.read_text())
     period_str = str(period_number)
     
-    if period_str not in game_state["decisions"]:
+    # Check if either decisions or results exist for the period
+    has_decisions = period_str in game_state.get("decisions", {})
+    has_results = period_str in game_state.get("results", {})
+    
+    # If neither exists, return 404
+    if not has_decisions and not has_results:
         raise HTTPException(status_code=404, detail="Period not found")
     
+    # Return whatever data is available
     return {
-        "decisions": game_state["decisions"].get(period_str, {}),
-        "results": game_state["results"].get(period_str, {})
+        "decisions": game_state.get("decisions", {}).get(period_str, {}),
+        "results": game_state.get("results", {}).get(period_str, {})
     }
 
 @app.post("/api/periods/advance")

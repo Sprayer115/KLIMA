@@ -1,8 +1,9 @@
 // stores/data.js
 import { defineStore } from 'pinia'
 import { useAuthStore } from './auth'
-import { toast } from '@/components/ui/toast'
+import { useToast } from '@/components/ui/toast/use-toast'
 
+const { toast } = useToast()
 export const useGameDataStore = defineStore('game', {
   state: () => ({
     metadata: {
@@ -14,7 +15,8 @@ export const useGameDataStore = defineStore('game', {
         data: {
           goals: {},
           generalInput: {},
-          personalUndAbteilungen: {}
+          personalUndAbteilungen: {},
+          fallpauschalen: [],
         },
         timestamp: null
       }
@@ -102,6 +104,9 @@ export const useGameDataStore = defineStore('game', {
           this.currentPeriodData = serverData.periodData
           this.notifyModules()
           this.saveToLocalStorage()
+        } else {
+          // Wenn die lokalen Daten neuer sind, speichere sie auf dem Server
+          this.saveToServer()
         }
       } catch (error) {
         toast({ 

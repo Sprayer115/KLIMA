@@ -1,0 +1,9 @@
+<template>
+  <div class="container mx-auto mt-20">
+    <h1>Fallpauschalen</h1>
+  </div>
+</template>
+
+<script setup>
+import { useAuthStore } from '@/stores/auth'
+</script>

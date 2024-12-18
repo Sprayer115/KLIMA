@@ -9,7 +9,7 @@
  <script setup>
  import NavBar from '@/components/NavBar.vue'
  import MainLayout from '@/components/Layout.vue'
- import { Toaster } from '@/components/ui/toast'
+ import Toaster from '@/components/ui/toast/Toaster.vue'
  import { useColorMode } from '@vueuse/core'
  import AutoSave from '@/components/AutoSave.vue'
  import { useGameDataStore } from '@/stores/data'

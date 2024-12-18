@@ -1,0 +1,1798 @@
+{
+  "timestamps": [
+    {
+      "time": 4.5,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2024-12-16T12:16:35.458397",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 166.97
+    },
+    {
+      "time": 171.46666666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T12:19:28.825353",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 27.17
+    },
+    {
+      "time": 198.63333333333335,
+      "state": "Deferring thought for later",
+      "state_code": "D",
+      "timestamp": "2024-12-16T12:31:23.208796",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 20.1
+    },
+    {
+      "time": 218.73333333333335,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T12:31:42.210216",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 23.0
+    },
+    {
+      "time": 241.73333333333335,
+      "state": "Deferring thought for later",
+      "state_code": "D",
+      "timestamp": "2024-12-16T12:31:57.330503",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 43.87
+    },
+    {
+      "time": 285.6,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T12:32:38.952272",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 103.5
+    },
+    {
+      "time": 389.1,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2024-12-16T12:33:26.472957",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 18.17
+    },
+    {
+      "time": 407.2666666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2024-12-16T12:33:34.903865",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 25.33
+    },
+    {
+      "time": 432.6,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T12:50:35.622563",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 3.17
+    },
+    {
+      "time": 435.7666666666667,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2024-12-16T12:50:42.099868",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 56.23
+    },
+    {
+      "time": 492.0,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T12:51:01.797335",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 65.77
+    },
+    {
+      "time": 557.7666666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T12:51:25.162192",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 3.27
+    },
+    {
+      "time": 561.0333333333334,
+      "state": "Editing Last Suggestion",
+      "state_code": "X",
+      "timestamp": "2024-12-16T12:51:38.795309",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 14.5
+    },
+    {
+      "time": 575.5333333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2024-12-16T12:52:01.066656",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 32.27
+    },
+    {
+      "time": 607.8000000000001,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T12:52:36.114646",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 32.8
+    },
+    {
+      "time": 640.6,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2024-12-16T12:53:07.768990",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 14.7
+    },
+    {
+      "time": 655.3000000000001,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2024-12-16T12:53:21.540372",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 1.2
+    },
+    {
+      "time": 656.5,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T12:53:22.675400",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 69.87
+    },
+    {
+      "time": 726.3666666666667,
+      "state": "Deferring thought for later",
+      "state_code": "D",
+      "timestamp": "2024-12-16T12:54:23.734640",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 14.67
+    },
+    {
+      "time": 741.0333333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2024-12-16T12:54:29.982453",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 18.4
+    },
+    {
+      "time": 759.4333333333334,
+      "state": "Editing Last Suggestion",
+      "state_code": "X",
+      "timestamp": "2024-12-16T12:54:35.936246",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 27.23
+    },
+    {
+      "time": 786.6666666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2024-12-16T12:54:54.126747",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 19.6
+    },
+    {
+      "time": 806.2666666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T12:55:32.545779",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 33.7
+    },
+    {
+      "time": 839.9666666666667,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2024-12-16T12:56:12.586521",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 76.2
+    },
+    {
+      "time": 916.1666666666667,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2024-12-16T12:56:28.161747",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 0.33
+    },
+    {
+      "time": 916.5,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2024-12-16T12:56:28.663077",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 0.37
+    },
+    {
+      "time": 916.8666666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T12:56:29.171604",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 41.7
+    },
+    {
+      "time": 958.5666666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T12:58:28.291345",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 15.13
+    },
+    {
+      "time": 973.7,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T12:58:49.592635",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 54.43
+    },
+    {
+      "time": 1028.1333333333334,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T12:59:42.727633",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 20.57
+    },
+    {
+      "time": 1048.7,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2024-12-16T13:00:02.154592",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 25.97
+    },
+    {
+      "time": 1074.6666666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T13:00:28.998889",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 23.37
+    },
+    {
+      "time": 1098.0333333333333,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T13:00:43.181576",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 18.07
+    },
+    {
+      "time": 1116.1000000000001,
+      "state": "Editing Last Suggestion",
+      "state_code": "X",
+      "timestamp": "2024-12-16T13:01:08.570482",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 2.27
+    },
+    {
+      "time": 1118.3666666666668,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2024-12-16T13:01:11.746101",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 24.8
+    },
+    {
+      "time": 1143.1666666666667,
+      "state": "Thinking about New Code",
+      "state_code": "F",
+      "timestamp": "2024-12-16T13:01:54.630416",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 17.03
+    },
+    {
+      "time": 1160.2,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2024-12-16T13:02:04.877145",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 38.67
+    },
+    {
+      "time": 1198.8666666666668,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T13:02:12.285542",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 46.47
+    },
+    {
+      "time": 1245.3333333333335,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T13:02:25.298067",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 4.33
+    },
+    {
+      "time": 1249.6666666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T13:02:31.390896",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 41.0
+    },
+    {
+      "time": 1290.6666666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T13:03:01.769550",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 10.67
+    },
+    {
+      "time": 1301.3333333333335,
+      "state": "Editing Last Suggestion",
+      "state_code": "X",
+      "timestamp": "2024-12-16T13:03:21.192343",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 5.57
+    },
+    {
+      "time": 1306.9,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2024-12-16T13:03:29.116760",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 6.03
+    },
+    {
+      "time": 1312.9333333333334,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2024-12-16T13:03:37.626525",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 1.13
+    },
+    {
+      "time": 1314.0666666666668,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T13:03:39.243383",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 4.3
+    },
+    {
+      "time": 1318.3666666666668,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2024-12-16T13:03:45.276289",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 16.33
+    },
+    {
+      "time": 1334.7,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T13:04:07.705685",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 10.33
+    },
+    {
+      "time": 1345.0333333333333,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2024-12-16T13:04:17.604901",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 9.67
+    },
+    {
+      "time": 1354.7,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T13:04:27.123656",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 4.83
+    },
+    {
+      "time": 1359.5333333333333,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T13:04:34.162928",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 1.97
+    },
+    {
+      "time": 1361.5,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T13:04:36.005967",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 8.07
+    },
+    {
+      "time": 1369.5666666666668,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T13:04:43.748932",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 2.87
+    },
+    {
+      "time": 1372.4333333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2024-12-16T13:04:46.544571",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 14.3
+    },
+    {
+      "time": 1386.7333333333333,
+      "state": "Thinking about New Code",
+      "state_code": "F",
+      "timestamp": "2024-12-16T13:05:00.268789",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 8.93
+    },
+    {
+      "time": 1395.6666666666667,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2024-12-16T13:06:20.807003",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 84.63
+    },
+    {
+      "time": 1480.3000000000002,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T13:07:10.031622",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 46.93
+    },
+    {
+      "time": 1527.2333333333333,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T13:07:20.892829",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 2.37
+    },
+    {
+      "time": 1529.6000000000001,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T13:07:24.217198",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 48.23
+    },
+    {
+      "time": 1577.8333333333335,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T13:07:33.957504",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 10.53
+    },
+    {
+      "time": 1588.3666666666668,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2024-12-16T13:07:36.638287",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 44.6
+    },
+    {
+      "time": 1632.9666666666667,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2024-12-16T13:07:47.102500",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 44.9
+    },
+    {
+      "time": 1677.8666666666668,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T13:07:56.076480",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 27.73
+    },
+    {
+      "time": 1705.6000000000001,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2024-12-16T13:08:02.908498",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 37.57
+    },
+    {
+      "time": 1743.1666666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T13:08:42.496527",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 91.5
+    },
+    {
+      "time": 1834.6666666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T13:09:04.516878",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 10.67
+    },
+    {
+      "time": 1845.3333333333335,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2024-12-16T13:09:19.461951",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 26.2
+    },
+    {
+      "time": 1871.5333333333335,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2024-12-16T13:09:38.709452",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 41.5
+    },
+    {
+      "time": 1913.0333333333335,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2024-12-16T13:09:53.665007",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 0.3
+    },
+    {
+      "time": 1913.3333333333335,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T13:09:54.097469",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 70.83
+    },
+    {
+      "time": 1984.1666666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T13:10:10.003406",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 31.73
+    },
+    {
+      "time": 2015.9,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T13:10:15.568973",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 10.67
+    },
+    {
+      "time": 2026.5666666666668,
+      "state": "Thinking about New Code",
+      "state_code": "F",
+      "timestamp": "2024-12-16T13:10:17.453451",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 6.4
+    },
+    {
+      "time": 2032.9666666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T13:10:25.278838",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 6.23
+    },
+    {
+      "time": 2039.2,
+      "state": "Editing Last Suggestion",
+      "state_code": "X",
+      "timestamp": "2024-12-16T13:10:31.516454",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 4.67
+    },
+    {
+      "time": 2043.8666666666668,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T13:10:38.084264",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 16.27
+    },
+    {
+      "time": 2060.133333333333,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2024-12-16T13:11:46.315694",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 2.23
+    },
+    {
+      "time": 2062.366666666667,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2024-12-16T13:11:49.439735",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 20.17
+    },
+    {
+      "time": 2082.5333333333333,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T13:12:05.801249",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 65.97
+    },
+    {
+      "time": 2148.5,
+      "state": "Deferring thought for later",
+      "state_code": "D",
+      "timestamp": "2024-12-16T13:12:22.713319",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 2.3
+    },
+    {
+      "time": 2150.8,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T13:12:25.942716",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 63.87
+    },
+    {
+      "time": 2214.666666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T13:12:39.578779",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 10.47
+    },
+    {
+      "time": 2225.1333333333337,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2024-12-16T13:12:54.305912",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 17.87
+    },
+    {
+      "time": 2243.0,
+      "state": "Thinking about New Code",
+      "state_code": "F",
+      "timestamp": "2024-12-16T13:14:19.411298",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 5.57
+    },
+    {
+      "time": 2248.5666666666666,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2024-12-16T13:14:24.646615",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 22.03
+    },
+    {
+      "time": 2270.6,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T13:14:32.608104",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 34.1
+    },
+    {
+      "time": 2304.7000000000003,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T13:14:40.540380",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 42.7
+    },
+    {
+      "time": 2347.4,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2024-12-16T13:15:24.979570",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 14.8
+    },
+    {
+      "time": 2362.2000000000003,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2024-12-16T13:15:36.920973",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 18.77
+    },
+    {
+      "time": 2380.9666666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T13:15:41.319332",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 6.23
+    },
+    {
+      "time": 2387.2000000000003,
+      "state": "Thinking about New Code",
+      "state_code": "F",
+      "timestamp": "2024-12-16T13:15:50.057306",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 10.23
+    },
+    {
+      "time": 2397.4333333333334,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2024-12-16T13:16:04.452238",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 8.17
+    },
+    {
+      "time": 2405.6,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T13:16:11.293909",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 24.0
+    },
+    {
+      "time": 2429.6,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T13:16:44.975416",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 36.3
+    },
+    {
+      "time": 2465.9,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T13:17:31.853090",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 14.83
+    },
+    {
+      "time": 2480.7333333333336,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2024-12-16T13:17:54.399004",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 40.03
+    },
+    {
+      "time": 2520.766666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T13:18:13.159859",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 36.83
+    },
+    {
+      "time": 2557.6,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T13:18:33.322037",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 1.93
+    },
+    {
+      "time": 2559.5333333333333,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2024-12-16T13:18:36.022297",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 1.97
+    },
+    {
+      "time": 2561.5,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T13:18:38.809791",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 133.17
+    },
+    {
+      "time": 2694.666666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T13:20:04.631889",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 2.37
+    },
+    {
+      "time": 2697.0333333333333,
+      "state": "Deferring thought for later",
+      "state_code": "D",
+      "timestamp": "2024-12-16T13:20:07.928361",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 2.4
+    },
+    {
+      "time": 2699.4333333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2024-12-16T13:20:11.284926",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 42.43
+    },
+    {
+      "time": 2741.866666666667,
+      "state": "Editing Last Suggestion",
+      "state_code": "X",
+      "timestamp": "2024-12-16T13:20:24.027751",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 22.27
+    },
+    {
+      "time": 2764.1333333333337,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2024-12-16T13:20:55.309370",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 48.97
+    },
+    {
+      "time": 2813.1,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2024-12-16T13:21:28.368087",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 22.63
+    },
+    {
+      "time": 2835.7333333333336,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T13:21:38.739303",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 45.2
+    },
+    {
+      "time": 2880.9333333333334,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T13:21:49.756531",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 19.73
+    },
+    {
+      "time": 2900.666666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T13:21:55.435264",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 21.9
+    },
+    {
+      "time": 2922.5666666666666,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T13:22:00.975822",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 39.2
+    },
+    {
+      "time": 2961.766666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T13:22:31.970665",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 61.07
+    },
+    {
+      "time": 3022.8333333333335,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T13:22:43.662833",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 20.93
+    },
+    {
+      "time": 3043.766666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2024-12-16T13:22:55.960501",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 37.27
+    },
+    {
+      "time": 3081.0333333333333,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T13:30:23.352467",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 12.53
+    },
+    {
+      "time": 3093.5666666666666,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2024-12-16T13:30:40.913393",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 3.5
+    },
+    {
+      "time": 3097.0666666666666,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T13:30:45.851207",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 35.1
+    },
+    {
+      "time": 3132.166666666667,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2024-12-16T13:31:02.855289",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 38.1
+    },
+    {
+      "time": 3170.266666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2024-12-16T13:31:14.005431",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 63.13
+    },
+    {
+      "time": 3233.4,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2024-12-16T13:31:44.645177",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 44.9
+    },
+    {
+      "time": 3278.3,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T13:31:53.694912",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 28.3
+    },
+    {
+      "time": 3306.6000000000004,
+      "state": "Deferring thought for later",
+      "state_code": "D",
+      "timestamp": "2024-12-16T13:32:01.988864",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 4.1
+    },
+    {
+      "time": 3310.7000000000003,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T13:32:07.787423",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 3.07
+    },
+    {
+      "time": 3313.766666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2024-12-16T13:32:12.093313",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 12.97
+    },
+    {
+      "time": 3326.7333333333336,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T13:32:15.545721",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 1.03
+    },
+    {
+      "time": 3327.766666666667,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2024-12-16T13:32:16.990157",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 33.2
+    },
+    {
+      "time": 3360.9666666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T13:32:26.604792",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 80.37
+    },
+    {
+      "time": 3441.3333333333335,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T13:32:47.643765",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 37.6
+    },
+    {
+      "time": 3478.9333333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2024-12-16T13:33:01.254907",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 30.87
+    },
+    {
+      "time": 3509.8,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T13:33:23.510298",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 91.17
+    },
+    {
+      "time": 3600.9666666666667,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2024-12-16T13:34:04.031589",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 87.13
+    },
+    {
+      "time": 3688.1000000000004,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T13:34:20.006685",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 98.87
+    },
+    {
+      "time": 3786.9666666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T13:34:40.925658",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 23.0
+    },
+    {
+      "time": 3809.9666666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2024-12-16T13:34:52.742752",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 31.27
+    },
+    {
+      "time": 3841.2333333333336,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T13:35:10.580262",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 11.9
+    },
+    {
+      "time": 3853.1333333333337,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2024-12-16T13:35:15.449604",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 24.37
+    },
+    {
+      "time": 3877.5,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T13:35:20.463557",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 29.17
+    },
+    {
+      "time": 3906.666666666667,
+      "state": "Deferring thought for later",
+      "state_code": "D",
+      "timestamp": "2024-12-16T13:35:27.700810",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 6.3
+    },
+    {
+      "time": 3912.9666666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T13:35:36.510550",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 14.83
+    },
+    {
+      "time": 3927.8,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T13:35:39.945432",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 45.73
+    },
+    {
+      "time": 3973.5333333333333,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2024-12-16T13:36:06.497171",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 11.2
+    },
+    {
+      "time": 3984.7333333333336,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T13:36:09.394127",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 18.83
+    },
+    {
+      "time": 4003.566666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T13:36:16.825888",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 54.03
+    },
+    {
+      "time": 4057.6000000000004,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T13:36:40.082030",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 31.23
+    },
+    {
+      "time": 4088.8333333333335,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T13:36:46.531942",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 9.53
+    },
+    {
+      "time": 4098.366666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2024-12-16T13:36:51.096025",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 38.47
+    },
+    {
+      "time": 4136.833333333334,
+      "state": "Editing Last Suggestion",
+      "state_code": "X",
+      "timestamp": "2024-12-16T13:37:09.396591",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 11.2
+    },
+    {
+      "time": 4148.033333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2024-12-16T13:37:22.069595",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 10.07
+    },
+    {
+      "time": 4158.1,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T13:38:37.808949",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 30.93
+    },
+    {
+      "time": 4189.033333333334,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2024-12-16T13:38:57.279036",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 23.87
+    },
+    {
+      "time": 4212.900000000001,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T13:39:02.589738",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 23.9
+    },
+    {
+      "time": 4236.8,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T13:39:08.210135",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 7.17
+    },
+    {
+      "time": 4243.966666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T13:39:10.029064",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 10.33
+    },
+    {
+      "time": 4254.3,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T13:39:13.325021",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 8.93
+    },
+    {
+      "time": 4263.233333333334,
+      "state": "Editing Last Suggestion",
+      "state_code": "X",
+      "timestamp": "2024-12-16T13:39:18.565856",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 6.67
+    },
+    {
+      "time": 4269.900000000001,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T13:39:25.583627",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 9.9
+    },
+    {
+      "time": 4279.8,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2024-12-16T14:36:57.074561",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 13.27
+    },
+    {
+      "time": 4293.066666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T14:37:02.916853",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 4.9
+    },
+    {
+      "time": 4297.966666666667,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2024-12-16T14:37:09.789110",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 17.9
+    },
+    {
+      "time": 4315.866666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T14:37:14.584279",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 20.27
+    },
+    {
+      "time": 4336.133333333333,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T14:37:22.060286",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 15.13
+    },
+    {
+      "time": 4351.266666666666,
+      "state": "Writing New Functionality",
+      "state_code": "Z",
+      "timestamp": "2024-12-16T14:38:00.986684",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 3.4
+    },
+    {
+      "time": 4354.666666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T14:38:07.242354",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 19.4
+    },
+    {
+      "time": 4374.066666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2024-12-16T14:38:32.303810",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 68.57
+    },
+    {
+      "time": 4442.633333333333,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T14:38:56.825020",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 23.67
+    },
+    {
+      "time": 4466.3,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2024-12-16T14:39:05.467581",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 197.33
+    },
+    {
+      "time": 4663.633333333333,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2024-12-16T14:39:52.920380",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 32.37
+    },
+    {
+      "time": 4696.0,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2024-12-16T14:40:08.768062",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 262.67
+    },
+    {
+      "time": 4958.666666666667,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2024-12-16T14:40:57.388138",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 55.3
+    },
+    {
+      "time": 5013.966666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T14:41:12.823382",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 37.87
+    },
+    {
+      "time": 5051.833333333334,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T14:41:24.713513",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 23.4
+    },
+    {
+      "time": 5075.233333333334,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T14:41:44.009428",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 49.07
+    },
+    {
+      "time": 5124.3,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T14:41:55.386585",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 21.03
+    },
+    {
+      "time": 5145.333333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2024-12-16T14:42:05.103922",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 70.67
+    },
+    {
+      "time": 5216.0,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2024-12-16T14:42:18.531461",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 38.93
+    },
+    {
+      "time": 5254.933333333333,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T14:42:25.720636",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 52.17
+    },
+    {
+      "time": 5307.1,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2024-12-16T14:42:35.726365",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 10.77
+    },
+    {
+      "time": 5317.866666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T14:42:38.723554",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 15.0
+    },
+    {
+      "time": 5332.866666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T14:42:44.348371",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 9.67
+    },
+    {
+      "time": 5342.533333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2024-12-16T14:42:47.426185",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 92.67
+    },
+    {
+      "time": 5435.2,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2024-12-16T14:43:05.187032",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 54.5
+    },
+    {
+      "time": 5489.7,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T14:43:15.508889",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 19.37
+    },
+    {
+      "time": 5509.066666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T14:43:41.949182",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 6.0
+    },
+    {
+      "time": 5515.066666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2024-12-16T14:43:53.835042",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 20.37
+    },
+    {
+      "time": 5535.433333333333,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2024-12-16T14:44:16.163738",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 12.1
+    },
+    {
+      "time": 5547.533333333334,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T14:44:19.075339",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 17.33
+    },
+    {
+      "time": 5564.866666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T14:44:26.607882",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 18.17
+    },
+    {
+      "time": 5583.033333333334,
+      "state": "Editing Last Suggestion",
+      "state_code": "X",
+      "timestamp": "2024-12-16T14:44:38.302164",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 2.3
+    },
+    {
+      "time": 5585.333333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2024-12-16T14:44:41.522466",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 91.9
+    },
+    {
+      "time": 5677.233333333334,
+      "state": "Looking up Documentation",
+      "state_code": "N",
+      "timestamp": "2024-12-16T14:45:29.709174",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 31.6
+    },
+    {
+      "time": 5708.833333333334,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2024-12-16T14:45:42.938745",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 13.13
+    },
+    {
+      "time": 5721.966666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T14:45:45.972836",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 142.33
+    },
+    {
+      "time": 5864.3,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T14:46:11.536006",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 52.4
+    },
+    {
+      "time": 5916.700000000001,
+      "state": "Editing Last Suggestion",
+      "state_code": "X",
+      "timestamp": "2024-12-16T14:46:26.223541",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 19.47
+    },
+    {
+      "time": 5936.166666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2024-12-16T14:46:33.187865",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 18.57
+    },
+    {
+      "time": 5954.733333333334,
+      "state": "Editing Last Suggestion",
+      "state_code": "X",
+      "timestamp": "2024-12-16T14:46:38.605199",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 21.2
+    },
+    {
+      "time": 5975.933333333333,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2024-12-16T14:46:43.768221",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 26.1
+    },
+    {
+      "time": 6002.033333333334,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T14:46:48.758023",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 28.27
+    },
+    {
+      "time": 6030.3,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T14:46:53.794411",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 10.93
+    },
+    {
+      "time": 6041.233333333334,
+      "state": "Deferring thought for later",
+      "state_code": "D",
+      "timestamp": "2024-12-16T14:46:55.751308",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 13.33
+    },
+    {
+      "time": 6054.566666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2024-12-16T14:46:58.116765",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 38.93
+    },
+    {
+      "time": 6093.5,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2024-12-16T14:47:05.100011",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 56.27
+    },
+    {
+      "time": 6149.766666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T14:47:15.231598",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 36.8
+    },
+    {
+      "time": 6186.566666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T14:47:23.463945",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 43.13
+    },
+    {
+      "time": 6229.700000000001,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2024-12-16T14:47:32.197459",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 28.37
+    },
+    {
+      "time": 6258.066666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T14:47:37.691616",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 14.27
+    },
+    {
+      "time": 6272.333333333334,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T14:47:40.684500",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 17.17
+    },
+    {
+      "time": 6289.5,
+      "state": "Editing Last Suggestion",
+      "state_code": "X",
+      "timestamp": "2024-12-16T14:48:04.722800",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 10.13
+    },
+    {
+      "time": 6299.633333333333,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T14:48:09.286812",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 38.1
+    },
+    {
+      "time": 6337.733333333334,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2024-12-16T14:48:36.444442",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 39.47
+    },
+    {
+      "time": 6377.200000000001,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2024-12-16T14:48:44.175291",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 1.87
+    },
+    {
+      "time": 6379.066666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T14:48:44.512738",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 25.33
+    },
+    {
+      "time": 6404.400000000001,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T14:48:50.576033",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 15.0
+    },
+    {
+      "time": 6419.400000000001,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2024-12-16T14:48:55.105880",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 28.0
+    },
+    {
+      "time": 6447.400000000001,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T14:49:00.144281",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 22.93
+    },
+    {
+      "time": 6470.333333333334,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T14:49:04.191721",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 39.03
+    },
+    {
+      "time": 6509.366666666667,
+      "state": "Looking up Documentation",
+      "state_code": "N",
+      "timestamp": "2024-12-16T14:49:28.198965",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 38.07
+    },
+    {
+      "time": 6547.433333333333,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2024-12-16T14:49:44.728024",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 14.17
+    },
+    {
+      "time": 6561.6,
+      "state": "Editing Last Suggestion",
+      "state_code": "X",
+      "timestamp": "2024-12-16T14:49:48.556911",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 12.53
+    },
+    {
+      "time": 6574.133333333333,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2024-12-16T14:49:53.754814",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 38.03
+    },
+    {
+      "time": 6612.166666666667,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2024-12-16T14:50:01.602751",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 23.83
+    },
+    {
+      "time": 6636.0,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T14:50:06.299995",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 43.87
+    },
+    {
+      "time": 6679.866666666667,
+      "state": "Deferring thought for later",
+      "state_code": "D",
+      "timestamp": "2024-12-16T14:50:15.886970",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 9.5
+    },
+    {
+      "time": 6689.366666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2024-12-16T14:50:19.389050",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 25.13
+    },
+    {
+      "time": 6714.5,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2024-12-16T14:50:24.590356",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 8.3
+    },
+    {
+      "time": 6722.8,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2024-12-16T14:50:29.732253",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+      "timePassed": 59.39
+    }
+  ],
+  "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
+  "last_save": "2024-12-17T14:22:31.275582"
+}

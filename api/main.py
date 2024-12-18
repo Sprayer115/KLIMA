@@ -9,10 +9,13 @@ from jose import JWTError, jwt
 from pathlib import Path
 import json
 import time
+import shutil
+import uuid
 
 app = FastAPI()
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
 STORAGE_PATH = "storage/gamedata"
+RESULT_INITIAL_PATH = "storage/hospital_data.json"
 class UserCreate(BaseModel):
     email: str
     password: str
@@ -30,6 +33,29 @@ class PasswordChange(BaseModel):
 class GameData(BaseModel):
     data: dict
     timestamp: float = None
+    
+class GameState(BaseModel):
+    metadata: dict
+    decisions: dict
+    results: dict
+
+class PeriodMetadata(BaseModel):
+    currentPeriod: int
+    lastModified: str
+    gameId: str
+
+class PeriodData(BaseModel):
+    data: dict
+    timestamp: float
+
+class Period(BaseModel):
+    decisions:PeriodData
+    results: dict = None
+
+class GamePeriod(BaseModel):
+    metadata: PeriodMetadata
+    periodData: Period
+
 
 SECRET_KEY = "VerySecret"
 ALGORITHM = "HS256"
@@ -265,7 +291,7 @@ async def change_password(
     
     return {"message": "Passwort erfolgreich geändert"}
 
-@app.post("/api/save")
+@app.post("/api/save", deprecated=True)
 async def save_game_data(game_data: GameData, current_user: dict = Depends(get_current_user)):
     user_file = Path(f"{STORAGE_PATH}/{current_user['email']}.json")
     user_file.parent.mkdir(parents=True, exist_ok=True)
@@ -287,7 +313,7 @@ async def save_game_data(game_data: GameData, current_user: dict = Depends(get_c
     
     return {"status": "success", "timestamp": game_data.timestamp}
 
-@app.get("/api/load")
+@app.get("/api/load", deprecated=True)
 async def load_game_data(current_user: dict = Depends(get_current_user)):
     print(f"Loading data for user: {current_user['email']}")
     user_file = Path(f"{STORAGE_PATH}/{current_user['email']}.json")
@@ -300,3 +326,158 @@ async def load_game_data(current_user: dict = Depends(get_current_user)):
         "data": stored_data.get("data", {}),
         "timestamp": stored_data.get("timestamp", datetime.now().timestamp())
     }
+
+def get_user_game_file(email: str) -> Path:
+    return Path(f"{STORAGE_PATH}/{email}_game.json")
+
+@app.get("/api/periods/current")
+async def get_current_period(current_user: dict = Depends(get_current_user)):
+    game_file = get_user_game_file(current_user['email'])
+    
+    if not game_file.exists():
+        initial_results = json.loads(Path(RESULT_INITIAL_PATH).read_text())
+        # Initialize new game with the unified structure
+        game_state = {
+            "metadata": {
+                "currentPeriod": 1,
+                "lastModified": datetime.now().isoformat(),
+                "gameId": str(uuid.uuid4())
+            },
+            "decisions": {
+                "1": {
+                    "data": {
+                        "goals": {},
+                        "generalInput": {},
+                        "personalUndAbteilungen": {},
+                        "fallpauschalen": [],
+                    },
+                    "timestamp": datetime.now().timestamp()
+                }
+            },
+            "results": {
+                0: initial_results['Periode']
+            }
+        }
+        print(game_state)
+        print(initial_results['Periode'])
+        game_file.parent.mkdir(parents=True, exist_ok=True)
+        game_file.write_text(json.dumps(game_state))
+    else:
+        game_state = json.loads(game_file.read_text())
+    
+    current_period = str(game_state["metadata"]["currentPeriod"])
+    
+    # Return only current period data
+    return {
+        "metadata": game_state["metadata"],
+        "periodData": {
+            "decisions": game_state["decisions"].get(current_period, {}),
+            #"results": game_state["results"].get(current_period, {})
+        }
+    }
+
+@app.post("/api/periods/current")
+async def save_current_period(
+    period: GamePeriod,
+    current_user: dict = Depends(get_current_user)
+):
+    game_file = get_user_game_file(current_user['email'])
+    if game_file.exists():
+        game_state = json.loads(game_file.read_text())
+    else:
+        raise HTTPException(status_code=404, detail="Game not found")
+    
+    current_period = str(period.metadata.currentPeriod)
+    
+    # Update game state
+    game_state["metadata"] = period.metadata.model_dump()
+    game_state["decisions"][current_period] = period.periodData.decisions.model_dump()
+    
+    if period.periodData.results:
+        game_state["results"][current_period] = period.periodData.results
+    
+    # Save complete game state
+    game_file.write_text(json.dumps(game_state))
+    
+    return {
+        "status": "success",
+        "timestamp": period.periodData.decisions.timestamp
+    }
+
+@app.get("/api/periods/{period_number}")
+async def get_period(
+    period_number: int,
+    current_user: dict = Depends(get_current_user)
+):
+    game_file = get_user_game_file(current_user['email'])
+    if not game_file.exists():
+        raise HTTPException(status_code=404, detail="Game not found")
+    
+    game_state = json.loads(game_file.read_text())
+    period_str = str(period_number)
+    
+    # Check if either decisions or results exist for the period
+    has_decisions = period_str in game_state.get("decisions", {})
+    has_results = period_str in game_state.get("results", {})
+    
+    # If neither exists, return 404
+    if not has_decisions and not has_results:
+        raise HTTPException(status_code=404, detail="Period not found")
+    
+    # Return whatever data is available
+    return {
+        "decisions": game_state.get("decisions", {}).get(period_str, {}),
+        "results": game_state.get("results", {}).get(period_str, {})
+    }
+
+@app.post("/api/periods/advance")
+async def advance_period(current_user: dict = Depends(get_current_user)):
+    game_file = get_user_game_file(current_user['email'])
+    if not game_file.exists():
+        raise HTTPException(status_code=404, detail="Game not found")
+    
+    game_state = json.loads(game_file.read_text())
+    current_period = game_state["metadata"]["currentPeriod"]
+    next_period = current_period + 1
+    
+    if next_period > 10:
+        raise HTTPException(status_code=400, detail="Maximum period reached")
+    
+    # Copy current period decisions to next period
+    current_period_str = str(current_period)
+    next_period_str = str(next_period)
+    
+    game_state["decisions"][next_period_str] = {
+        "data": game_state["decisions"][current_period_str]["data"].copy(),
+        "timestamp": datetime.now().timestamp()
+    }
+    
+    # Update metadata
+    game_state["metadata"]["currentPeriod"] = next_period
+    game_state["metadata"]["lastModified"] = datetime.now().isoformat()
+    
+    # Save updated game state
+    game_file.write_text(json.dumps(game_state))
+    
+    return {
+        "metadata": game_state["metadata"],
+        "periodData": {
+            "decisions": game_state["decisions"][next_period_str],
+            "results": {}
+        }
+    }
+
+# Backup endpoint
+@app.post("/api/backup")
+async def backup_game(current_user: dict = Depends(get_current_user)):
+    game_file = get_user_game_file(current_user['email'])
+    if not game_file.exists():
+        raise HTTPException(status_code=404, detail="Game not found")
+    
+    backup_time = datetime.now().strftime("%Y%m%d_%H%M%S")
+    backup_file = Path(f"{STORAGE_PATH}/backups/{current_user['email']}_{backup_time}_game.json")
+    backup_file.parent.mkdir(parents=True, exist_ok=True)
+    
+    shutil.copy2(game_file, backup_file)
+    
+    return {"status": "success", "backup_time": backup_time}

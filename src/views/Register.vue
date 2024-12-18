@@ -33,8 +33,9 @@ import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
-import { toast } from '@/components/ui/toast'
+import { useToast } from '@/components/ui/toast/use-toast'
 
+const { toast } = useToast()
 const auth = useAuthStore()
 const router = useRouter()
 const email = ref('')

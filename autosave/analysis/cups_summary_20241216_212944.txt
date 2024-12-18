@@ -1,0 +1,20 @@
+CUPS Analysis Summary
+===================
+
+Total Duration: 6777.8 seconds
+Most Frequent State: Thinking/Verifying Suggestion
+Longest Total Duration State: Waiting For Suggestion
+Average State Duration: 30.3 seconds
+Number of State Transitions: 223
+
+State Distribution:
+  Debugging/Testing Code: 23.5%
+  Deferring thought for later: 1.7%
+  Editing Last Suggestion: 2.4%
+  Editing Written Code: 0.3%
+  Looking up Documentation: 1.0%
+  Prompt crafting: 20.9%
+  Thinking about New Code: 0.7%
+  Thinking/Verifying Suggestion: 17.7%
+  Waiting For Suggestion: 31.9%
+  Writing New Functionality: 0.1%

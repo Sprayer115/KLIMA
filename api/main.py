@@ -358,8 +358,6 @@ async def get_current_period(current_user: dict = Depends(get_current_user)):
                 0: initial_results['Periode']
             }
         }
-        print(game_state)
-        print(initial_results['Periode'])
         game_file.parent.mkdir(parents=True, exist_ok=True)
         game_file.write_text(json.dumps(game_state))
     else:

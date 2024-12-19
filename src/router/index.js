@@ -1,6 +1,8 @@
 // router/index.js
 import { createRouter, createWebHistory } from 'vue-router'
 import { useAuthStore } from '@/stores/auth'
+import Goals from '@/views/Goals.vue'
+import GeneralInput from '@/views/GeneralInput.vue'
 
 const routes = [
   {
@@ -24,6 +26,18 @@ const routes = [
         name: 'change-password',
         component: () => import('@/views/ChangePassword.vue'),
         meta: { requiresAuth: true}
+      },
+      {
+        path: 'goals',
+        name: 'goals',
+        component: Goals,
+        meta: { requiresAuth: true }
+      },
+      {
+        path: 'general-input',
+        name: 'generalInput',
+        component: GeneralInput,
+        meta: { requiresAuth: true }
       }
     ]
   },
@@ -68,7 +82,6 @@ router.beforeEach((to, from, next) => {
   if (to.meta.requiresAdmin && !isAdmin) {
     return next('/')
   }
-
 
   // Proceed with navigation
   next()

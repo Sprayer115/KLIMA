@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import { useAuthStore } from '@/stores/auth'
 import Goals from '@/views/Goals.vue'
 import GeneralInput from '@/views/GeneralInput.vue'
+import PersonalUndAbteilungen from '@/views/PersonalUndAbteilungen.vue'
 
 const routes = [
   {
@@ -38,6 +39,11 @@ const routes = [
         name: 'generalInput',
         component: GeneralInput,
         meta: { requiresAuth: true }
+      },
+      {
+        path: '/personal-und-abteilungen',
+        name: 'PersonalUndAbteilungen',
+        component: PersonalUndAbteilungen
       }
     ]
   },

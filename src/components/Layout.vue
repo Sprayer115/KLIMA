@@ -37,6 +37,12 @@
           >
             Settings
           </router-link>
+          <router-link 
+            to="/fallpauschalen" 
+            class="text-sm font-medium dark:text-slate-300 dark:hover:text-white transition-colors"
+          >
+            Fallpauschalen
+          </router-link>
         </nav>
         <div class="ml-auto flex items-center space-x-4">
           <NavBar />

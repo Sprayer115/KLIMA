@@ -2,8 +2,9 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import { useAuthStore } from '@/stores/auth'
 import Goals from '@/views/Goals.vue'
-import GeneralInput from '@/views/GeneralInput.vue'
-import PersonalUndAbteilungen from '@/views/PersonalUndAbteilungen.vue'
+import GeneralInput from '@/views/input/GeneralInput.vue'
+import PersonalUndAbteilungen from '@/views/input/PersonalUndAbteilungen.vue'
+import Fallpauschalen from '@/views/input/Fallpauschalen.vue'
 
 const routes = [
   {
@@ -44,6 +45,12 @@ const routes = [
         path: '/personal-und-abteilungen',
         name: 'PersonalUndAbteilungen',
         component: PersonalUndAbteilungen
+      },
+      {
+        path: 'fallpauschalen',
+        name: 'Fallpauschalen',
+        component: Fallpauschalen,
+        meta: { requiresAuth: true }
       }
     ]
   },

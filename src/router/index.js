@@ -5,6 +5,9 @@ import Goals from '@/views/Goals.vue'
 import GeneralInput from '@/views/input/GeneralInput.vue'
 import PersonalUndAbteilungen from '@/views/input/PersonalUndAbteilungen.vue'
 import Fallpauschalen from '@/views/input/Fallpauschalen.vue'
+import VerweildauerUndZentralbereiche from '@/views/input/VerweildauerUndZentralbereiche.vue'
+import ForschungUndInvestition from '@/views/input/ForschungInvestitionUndZGB.vue'
+import Leistungsangebot from '@/views/input/Leistungsangebot.vue'
 
 const routes = [
   {
@@ -42,14 +45,33 @@ const routes = [
         meta: { requiresAuth: true }
       },
       {
-        path: '/personal-und-abteilungen',
+        path: 'personal-und-abteilungen',
         name: 'PersonalUndAbteilungen',
-        component: PersonalUndAbteilungen
+        component: PersonalUndAbteilungen,
+        meta: { requiresAuth: true }
       },
       {
         path: 'fallpauschalen',
         name: 'Fallpauschalen',
         component: Fallpauschalen,
+        meta: { requiresAuth: true }
+      },
+      {
+        path: 'verweildauer-und-zentralbereiche',
+        name: 'VerweildauerUndZentralbereiche',
+        component: VerweildauerUndZentralbereiche,
+        meta: { requiresAuth: true }
+      },
+      {
+        path: 'forschung-und-investition',
+        name: 'ForschungUndInvestition',
+        component: ForschungUndInvestition,
+        meta: { requiresAuth: true }
+      },
+      {
+        path: 'leistungsangebot',
+        name: 'Leistungsangebot',
+        component: Leistungsangebot,
         meta: { requiresAuth: true }
       }
     ]

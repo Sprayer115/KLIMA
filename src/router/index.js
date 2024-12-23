@@ -8,6 +8,7 @@ import Fallpauschalen from '@/views/input/Fallpauschalen.vue'
 import VerweildauerUndZentralbereiche from '@/views/input/VerweildauerUndZentralbereiche.vue'
 import ForschungUndInvestition from '@/views/input/ForschungInvestitionUndZGB.vue'
 import Leistungsangebot from '@/views/input/Leistungsangebot.vue'
+import PeriodView from '@/views/PeriodView.vue'
 
 const routes = [
   {
@@ -72,6 +73,12 @@ const routes = [
         path: 'leistungsangebot',
         name: 'Leistungsangebot',
         component: Leistungsangebot,
+        meta: { requiresAuth: true }
+      },
+      {
+        path: 'period',
+        name: 'PeriodView',
+        component: PeriodView,
         meta: { requiresAuth: true }
       }
     ]

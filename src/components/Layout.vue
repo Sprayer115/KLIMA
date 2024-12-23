@@ -18,6 +18,12 @@
           >
             Unternehmensziele
           </router-link>
+          <router-link 
+            to="/period" 
+            class="text-sm font-medium dark:text-slate-300 dark:hover:text-white transition-colors"
+          >
+            Periodenergebnisse
+          </router-link>
           <div class="relative group">
             <button 
               class="text-sm font-medium dark:text-slate-300 dark:hover:text-white transition-colors"

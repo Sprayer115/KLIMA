@@ -16,7 +16,8 @@
           "Verweildauer3": 5.1,
           "Verweildauer4": 1.3,
           "VerweildauerGesamt": 18.7,
-          "Aequivalenzpunkte": 22.5
+          "Aequivalenzpunkte": 22.5,
+          "BelegGradNotfall": null
         },
         "Chir": {
           "Belegungsgrad": 84.12,
@@ -32,7 +33,8 @@
           "Verweildauer3": 3.6,
           "Verweildauer4": 1.3,
           "VerweildauerGesamt": 14.0,
-          "Aequivalenzpunkte": 17.0
+          "Aequivalenzpunkte": 17.0,
+          "BelegGradNotfall": null
         },
         "Gyn": {
           "Belegungsgrad": 74.51,
@@ -48,7 +50,8 @@
           "Verweildauer3": 2.1,
           "Verweildauer4": 1.1,
           "VerweildauerGesamt": 11.5,
-          "Aequivalenzpunkte": 13.5
+          "Aequivalenzpunkte": 13.5,
+          "BelegGradNotfall": 17.23
         },
         "BelegGradNotfall": 17.23
       },

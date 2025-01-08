@@ -29,3 +29,4 @@ local
 .aider.tags.cache.v3/cache.db-wal
 .aider.tags.cache.v3/cache.db-shm
 .aider.tags.cache.v3/cache.db
+.aider*

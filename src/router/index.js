@@ -24,6 +24,18 @@ const routes = [
         name: 'change-password',
         component: () => import('@/views/ChangePassword.vue'),
         meta: { requiresAuth: true}
+      },
+      {
+        path: 'goals',
+        name: 'goals',
+        component: () => import('@/views/Goals.vue'),
+        meta: { requiresAuth: true}
+      },
+      {
+        path: 'general-input',
+        name: 'general-input',
+        component: () => import('@/views/input/GeneralInput.vue'),
+        meta: { requiresAuth: true}
       }
     ]
   },

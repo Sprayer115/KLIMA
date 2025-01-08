@@ -13,6 +13,18 @@
             Dashboard
           </router-link>
           <router-link 
+            to="/goals" 
+            class="text-sm font-medium dark:text-slate-300 dark:hover:text-white transition-colors"
+          >
+            Ziele
+          </router-link>
+          <router-link 
+            to="/general-input" 
+            class="text-sm font-medium dark:text-slate-300 dark:hover:text-white transition-colors"
+          >
+            Allgemein
+          </router-link>
+          <router-link 
             v-if="isAdmin" 
             to="/settings" 
             class="text-sm font-medium dark:text-slate-300 dark:hover:text-white transition-colors"

@@ -1791,8 +1791,4488 @@
       "timestamp": "2024-12-16T14:50:29.732253",
       "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
       "timePassed": 59.39
+    },
+    {
+      "time": 8.133333333333333,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T11:41:16.714811",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 421.5,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T11:44:00.981434",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 471.1,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T11:44:22.537512",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 501.7666666666667,
+      "state": "Writing New Functionality",
+      "state_code": "Z",
+      "timestamp": "2025-01-02T11:45:00.364634",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 506.83333333333337,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T11:45:02.600899",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 508.9666666666667,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T11:45:03.467915",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 526.3000000000001,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T11:45:10.458844",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 547.9,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T11:45:18.247735",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 559.1,
+      "state": "Writing New Functionality",
+      "state_code": "Z",
+      "timestamp": "2025-01-02T11:45:22.983930",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 622.5666666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T11:45:48.158012",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 749.2333333333333,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T11:47:05.330306",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 777.5,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T11:47:16.716568",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 803.1,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T11:47:26.840826",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 819.6333333333333,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T11:47:32.713707",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 833.5,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T11:47:37.637628",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 845.7666666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T11:47:42.967402",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 869.2333333333333,
+      "state": "Editing Last Suggestion",
+      "state_code": "X",
+      "timestamp": "2025-01-02T11:47:52.215715",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 1053.2333333333333,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T11:49:19.408972",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 1074.3,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T11:49:29.290134",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 1096.9666666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T11:58:59.225779",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 1107.3666666666668,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T11:59:05.024400",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 1218.5666666666668,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T11:59:58.907748",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 1240.1666666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T12:00:07.686318",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 1271.6333333333334,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T12:00:19.757794",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 1283.1000000000001,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-02T12:00:24.217003",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 1294.3,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T12:00:28.497358",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 1309.5,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T12:01:09.313019",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 1331.9,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-02T12:01:17.601123",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 1337.2333333333333,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T12:01:19.606222",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 1428.4333333333334,
+      "state": "Not Thinking",
+      "state_code": "S",
+      "timestamp": "2025-01-02T12:01:59.422307",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 1475.9,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T12:02:17.690452",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 1575.6333333333334,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-02T12:03:28.399600",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 1595.6333333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T12:03:35.872153",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 1628.1666666666667,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T12:04:30.360394",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 1658.8333333333335,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T12:04:41.514836",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 1684.2333333333333,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T12:05:09.149049",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 1701.3000000000002,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T12:05:15.513647",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 1757.5666666666668,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T12:05:36.915088",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 1834.3666666666668,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T12:06:06.000697",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 1859.4333333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T12:06:16.234623",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 2035.7,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T12:07:44.422879",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 2069.0333333333333,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T12:07:56.062349",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 2097.5666666666666,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T12:08:06.673182",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 2118.1,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T12:08:14.423841",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 2139.166666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T12:08:22.329192",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 2191.4333333333334,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T12:08:52.904203",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 2196.766666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T12:08:55.169856",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 2226.366666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T12:09:07.249904",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 2249.8333333333335,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T12:09:16.704589",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 2375.766666666667,
+      "state": "Not Thinking",
+      "state_code": "S",
+      "timestamp": "2025-01-02T12:10:09.788399",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 2441.6333333333337,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T12:10:36.289058",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 2447.5,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T12:10:38.431030",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 2638.7000000000003,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T12:11:48.269740",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 2696.3,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T12:12:08.054121",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 2717.9,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T12:12:15.742271",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 2743.5,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T12:12:24.841874",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 2814.7000000000003,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T12:12:51.278153",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 2857.6333333333337,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T12:14:34.695097",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 2938.9666666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T12:15:29.447367",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 3074.166666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T12:16:37.185871",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 3089.366666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T12:16:43.582770",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 3189.1000000000004,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T12:17:23.605141",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 3241.9,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T12:17:44.526658",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 3317.1000000000004,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T12:18:14.129711",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 3322.7000000000003,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T12:18:16.427856",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 3372.0333333333333,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T12:18:34.729400",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 3385.9,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T12:18:39.311220",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 3637.366666666667,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T12:20:25.269397",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 3988.8333333333335,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T12:22:29.451671",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 4204.3,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T12:23:39.402076",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 4232.833333333334,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T12:23:48.669013",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 4274.166666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T12:24:01.732391",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 4297.366666666667,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T12:24:09.355889",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 4313.366666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T12:24:14.661990",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 4329.633333333333,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T12:24:19.803244",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 4332.033333333334,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T12:24:20.706446",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 4337.633333333333,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T12:24:22.596447",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 4516.833333333334,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T12:25:23.370693",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 4565.366666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T12:25:40.814634",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 4606.7,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-02T12:25:58.590029",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 4616.833333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T12:26:02.085233",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 4730.166666666667,
+      "state": "Editing Last Suggestion",
+      "state_code": "X",
+      "timestamp": "2025-01-02T12:26:50.315061",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 4746.433333333333,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T12:26:56.295448",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 4763.766666666667,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-02T12:27:02.717482",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 4768.033333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T12:27:04.265398",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 4949.633333333333,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-02T12:28:43.130869",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 4956.033333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T12:28:45.408687",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 4969.1,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T12:28:49.763043",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 4982.433333333333,
+      "state": "Editing Last Suggestion",
+      "state_code": "X",
+      "timestamp": "2025-01-02T12:28:54.281678",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 5057.1,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T12:29:20.492248",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 5292.3,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-02T12:30:44.732003",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 5303.5,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T12:30:48.741226",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 5367.5,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-02T12:31:11.033602",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 5471.233333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T12:31:48.041750",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 5482.7,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-02T12:31:52.159899",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 5508.033333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T12:32:01.203012",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 5532.033333333334,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-02T12:32:09.747813",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 5541.1,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T12:32:12.978304",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 5561.1,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-02T12:32:19.951693",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 5816.833333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T12:33:56.400040",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 5881.1,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-02T12:34:17.110061",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 5891.766666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T12:34:20.534378",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 5921.633333333333,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T12:34:30.142839",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 6094.433333333333,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T12:35:27.403997",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 6143.5,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T12:39:32.875215",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 6198.966666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T12:39:52.712038",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 6232.833333333334,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T12:40:06.052371",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 6310.433333333333,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T12:40:31.045197",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 6389.366666666667,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-02T12:41:12.458380",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 6458.433333333333,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T12:41:35.046277",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 6580.566666666667,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T12:42:15.612041",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 6716.566666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T12:42:58.634425",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 6798.433333333333,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-02T12:43:39.368903",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 6992.566666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T12:44:42.301791",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 7002.433333333333,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T12:44:45.512513",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 7047.5,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T12:44:59.097758",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 7124.566666666667,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-02T12:45:22.539810",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 7179.233333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T12:45:39.013236",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 7482.700000000001,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-02T12:47:33.696350",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 7605.366666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T12:48:14.214985",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 7665.900000000001,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-02T12:48:33.645990",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 7726.966666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T12:48:53.768632",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 7776.033333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T12:49:10.112717",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 7838.433333333333,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-02T12:49:30.561349",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 7845.633333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T12:49:32.986080",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 7937.900000000001,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T12:50:03.069069",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 7983.233333333334,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T12:50:17.701579",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 8000.033333333334,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T12:50:23.181687",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 8010.700000000001,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T12:50:26.751838",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 8041.1,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T12:50:37.939481",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 8086.166666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T12:50:53.272395",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 8156.566666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T12:51:16.925129",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 8199.233333333334,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-02T12:51:30.934833",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 8365.9,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T12:52:26.368660",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 8375.766666666666,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T12:52:29.862638",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 8399.5,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T12:52:37.870375",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 8451.766666666666,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T12:52:54.734253",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 8485.366666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T12:53:05.873771",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 8510.7,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T12:53:14.195628",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 8564.033333333333,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-02T12:53:46.690015",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 8570.7,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T12:53:48.837420",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 8574.966666666667,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-02T12:53:50.439209",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 8580.300000000001,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T12:53:52.312627",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 8596.300000000001,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-02T12:53:58.023516",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 8658.966666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T12:54:18.210386",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 8677.1,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-02T12:54:24.391141",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 8721.9,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T12:54:38.969360",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 8736.566666666668,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-02T12:54:43.792132",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 8746.433333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T12:54:47.415280",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 8778.7,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-02T12:54:57.510930",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 8798.433333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T12:55:03.865568",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 8808.833333333334,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-02T12:55:07.404767",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 8824.033333333333,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T12:55:12.346658",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 8887.233333333334,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T12:55:32.051018",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 8911.233333333334,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T12:55:39.573680",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 8941.366666666667,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-02T12:55:49.130651",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 8945.9,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T12:55:50.655008",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 8959.766666666666,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-02T12:55:55.061747",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 8981.366666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T12:56:02.498391",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 9001.633333333333,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-02T12:56:09.545632",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 9012.300000000001,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T12:56:13.403877",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 9014.966666666667,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-02T12:56:14.418851",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 9050.433333333334,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T12:56:26.687641",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 9103.5,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T12:56:44.729539",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 9104.300000000001,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T12:56:44.995137",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 9162.433333333334,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T12:57:03.350441",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 9227.233333333334,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T12:57:23.296498",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 9344.300000000001,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T12:58:05.969543",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 9405.633333333333,
+      "state": "Editing Last Suggestion",
+      "state_code": "X",
+      "timestamp": "2025-01-02T12:58:31.422900",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 9417.366666666667,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-02T12:58:35.958012",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 9457.633333333333,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T12:58:49.896000",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 9473.9,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-02T12:58:55.297058",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 9510.7,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T12:59:07.196550",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 9611.233333333334,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-02T12:59:41.639484",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 9618.7,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T12:59:44.197213",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 9645.9,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T12:59:53.623621",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 9672.033333333335,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T13:00:02.801311",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 9681.9,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T13:00:06.253565",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 9687.766666666666,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T13:00:08.369196",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 9725.633333333333,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T13:00:21.774544",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 9749.1,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-02T13:00:29.865675",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 9832.033333333335,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T13:01:00.319205",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 9891.233333333334,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-02T13:01:22.426150",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 9902.433333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T13:01:27.169532",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 9925.1,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T13:01:35.867487",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 9930.966666666667,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T13:01:38.041460",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 9934.966666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T13:01:39.734336",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 9956.300000000001,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T13:01:47.696781",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 9962.966666666667,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-02T13:01:50.302573",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 9980.833333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T13:01:56.921478",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 9999.233333333334,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-02T13:02:03.363459",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 10042.7,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T13:02:18.184167",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 10045.9,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T13:02:19.437315",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 10049.1,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T13:02:20.794890",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 10071.5,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T13:02:28.329840",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 10085.1,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T13:02:33.201043",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 10177.633333333333,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-02T13:03:03.662217",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 10237.633333333333,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T13:03:26.244713",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 10328.033333333335,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-02T13:04:01.190648",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 10355.766666666666,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T13:04:11.771941",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 10364.833333333334,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-02T13:04:15.548747",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 10370.966666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T13:04:18.213288",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 10374.7,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T13:04:19.781394",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 10403.5,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T13:04:31.165270",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 10430.166666666668,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T13:04:40.661543",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 10500.033333333335,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-02T13:05:06.655981",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 10551.5,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-02T13:05:28.425264",
+      "video_path": "C:/Users/iLux1/Downloads/Github Task 4.mp4"
+    },
+    {
+      "time": 2.8666666666666667,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T22:59:00.313368",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 312.73333333333335,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T23:06:03.900194",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 332.03333333333336,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T23:06:11.389986",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 346.33333333333337,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T23:19:05.246179",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 399.8666666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T23:19:23.615050",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 436.1333333333334,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T23:19:33.279456",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 459.06666666666666,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T23:19:40.144560",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 585.2,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T23:20:23.934198",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 588.9333333333334,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T23:20:25.193156",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 617.2,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T23:20:42.283238",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 623.0666666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T23:20:44.039777",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 639.3333333333334,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T23:20:49.857614",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 642.8000000000001,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T23:20:51.925706",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 678.8000000000001,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T23:21:22.103754",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 698.0,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T23:21:27.127126",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 768.9333333333334,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T23:22:02.923992",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 770.8000000000001,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T23:22:03.466919",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 830.8000000000001,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T23:22:19.375419",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 851.8666666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T23:22:25.853521",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 867.6,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T23:22:30.927112",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 871.0666666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T23:22:32.134934",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 872.1333333333333,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T23:22:32.493221",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 915.3333333333334,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T23:22:45.167072",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 922.8000000000001,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T23:22:47.616951",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 927.8666666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T23:22:49.528214",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 942.0,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T23:22:54.077161",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 1014.0,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T23:23:15.093356",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 1033.7333333333333,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T23:23:20.949098",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 1111.8666666666668,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T23:23:43.479157",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 1142.5333333333333,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T23:23:52.810798",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 1152.6666666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T23:23:56.034781",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 1174.5333333333333,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-02T23:24:02.696516",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 1202.0,
+      "state": "Editing Last Suggestion",
+      "state_code": "X",
+      "timestamp": "2025-01-02T23:24:11.098101",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 1211.3333333333335,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T23:24:14.046376",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 1232.4,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T23:24:20.467239",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 1265.4666666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T23:24:30.486073",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 1303.3333333333335,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T23:24:41.374631",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 1311.0666666666668,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T23:24:43.785916",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 1374.8,
+      "state": "Thinking about New Code",
+      "state_code": "F",
+      "timestamp": "2025-01-02T23:25:02.675826",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 1418.2666666666667,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T23:25:15.066549",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 1488.1333333333334,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T23:25:50.099823",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 1509.4666666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T23:25:56.292467",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 1522.0,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T23:26:00.194943",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 1546.2666666666667,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T23:26:07.543326",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 1615.6000000000001,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T23:26:29.125411",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 1651.6000000000001,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T23:26:40.074577",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 1664.1333333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T23:26:44.263393",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 1674.0,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T23:26:47.633108",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 1691.3333333333335,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T23:26:53.141204",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 1722.2666666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T23:27:03.408335",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 1740.1333333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T23:27:09.020010",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 1813.2,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T23:27:33.316738",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 1963.6000000000001,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T23:30:03.339014",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 2009.2,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T23:30:40.088521",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 2031.3333333333335,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T23:31:06.137074",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 2075.6,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T23:32:09.138399",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 2111.866666666667,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T23:32:18.678698",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 2163.3333333333335,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T23:32:32.360762",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 2200.133333333333,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T23:32:42.903585",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 2204.9333333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T23:32:44.531037",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 2243.3333333333335,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T23:32:55.862274",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 2304.4,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T23:33:20.735292",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 2343.866666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T23:33:31.678478",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 2354.5333333333333,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T23:33:35.031310",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 2386.5333333333333,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T23:33:44.585075",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 2424.4,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-02T23:33:58.902539",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 2450.8,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T23:34:11.827047",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 2470.266666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T23:34:18.396693",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 2511.866666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T23:34:30.363310",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 2524.4,
+      "state": "Editing Last Suggestion",
+      "state_code": "X",
+      "timestamp": "2025-01-02T23:34:34.178107",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 2531.0666666666666,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T23:34:36.424051",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 2589.7333333333336,
+      "state": "Editing Last Suggestion",
+      "state_code": "X",
+      "timestamp": "2025-01-02T23:35:55.446013",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 2612.666666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T23:36:01.849711",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 2628.666666666667,
+      "state": "Editing Last Suggestion",
+      "state_code": "X",
+      "timestamp": "2025-01-02T23:36:10.823690",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 2634.8,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T23:36:12.628670",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 2693.7333333333336,
+      "state": "Editing Last Suggestion",
+      "state_code": "X",
+      "timestamp": "2025-01-02T23:36:28.503834",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 2696.9333333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T23:36:29.755650",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 2717.7333333333336,
+      "state": "Editing Last Suggestion",
+      "state_code": "X",
+      "timestamp": "2025-01-02T23:36:36.181245",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 2732.4,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T23:36:41.444248",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 2753.2000000000003,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T23:36:49.889438",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 2802.8,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T23:38:28.913061",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 2847.866666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T23:38:41.187187",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 2863.6000000000004,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T23:38:45.532923",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 2897.2000000000003,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T23:39:06.926456",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 3017.4666666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T23:40:51.888375",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 3064.4,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T23:41:04.837387",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 3069.7333333333336,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T23:41:06.514684",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 3137.7333333333336,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T23:46:30.096359",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 3188.1333333333337,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T23:52:25.720909",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 3240.1333333333337,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T23:52:39.745161",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 3252.1333333333337,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T23:52:43.170147",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 3260.666666666667,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T23:52:45.734172",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 3272.4,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T23:52:49.145250",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 3319.866666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T23:53:04.046720",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 3348.9333333333334,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T23:53:13.833192",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 3361.4666666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T23:53:18.011321",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 3379.3333333333335,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T23:53:23.784999",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 3431.0666666666666,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T23:53:45.649575",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 3479.3333333333335,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T23:54:01.450608",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 3506.0,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T23:54:10.626262",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 3528.666666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T23:54:18.010861",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 3572.9333333333334,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T23:54:32.588216",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 3584.4,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T23:54:36.622839",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 3635.066666666667,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T23:54:52.792368",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 3658.8,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T23:55:00.906988",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 3706.5333333333333,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T23:55:16.367526",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 3718.266666666667,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T23:55:19.979406",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 3740.9333333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T23:55:27.387601",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 3787.6000000000004,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T23:55:42.833305",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 3840.4,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T23:55:59.694358",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 3878.266666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T23:57:15.139897",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 3884.666666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T23:57:16.964133",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 3929.2000000000003,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T23:57:28.749766",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 3943.3333333333335,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T23:57:32.732453",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 3946.8,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-02T23:57:33.815450",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 3964.1333333333337,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-02T23:57:38.936753",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 3999.3333333333335,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-02T23:57:49.462646",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 4008.9333333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-02T23:57:52.483410",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 4839.333333333334,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T00:02:22.541266",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 4910.0,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T00:02:43.648468",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 4962.266666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T00:03:00.227906",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 4977.733333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:03:05.495735",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 5025.466666666667,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T00:03:21.122693",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 5050.8,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T00:03:29.480690",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 5099.6,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T00:03:45.572724",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 5105.466666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:03:47.756408",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 5114.533333333334,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T00:03:51.115930",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 5121.733333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:03:53.689987",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 5126.533333333334,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T00:03:55.485213",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 5141.2,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T00:04:00.636696",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 5207.866666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T00:04:22.070757",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 5214.0,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:04:24.144059",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 5246.8,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T00:04:34.206282",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 5271.6,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T00:04:41.697443",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 5331.066666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T00:04:59.419330",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 5335.333333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:05:01.118056",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 5366.533333333334,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T00:05:13.489747",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 5462.0,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T00:05:44.202003",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 5514.8,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T00:06:08.686349",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 5532.666666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:06:14.199130",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 5570.0,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T00:06:28.859159",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 5632.933333333333,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T00:06:49.987039",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 5684.666666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T00:07:07.325402",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 5697.466666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:07:11.804957",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 5703.066666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T00:07:13.835680",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 5789.200000000001,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T00:07:41.925012",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 5804.133333333333,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T00:07:46.912885",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 5850.0,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T00:08:02.680580",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 5863.866666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:08:08.923964",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 5906.8,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T00:08:22.598649",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 6026.0,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T00:09:01.664432",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 6058.266666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T00:09:12.510424",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 6077.200000000001,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:09:19.138373",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 6085.733333333334,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T00:09:22.140011",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 6095.333333333334,
+      "state": "Editing Last Suggestion",
+      "state_code": "X",
+      "timestamp": "2025-01-03T00:09:25.451923",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 6104.666666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:09:28.798602",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 6120.400000000001,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T00:09:34.283684",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 6152.933333333333,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T00:09:45.155265",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 6241.466666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T00:10:14.090048",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 6272.933333333333,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T00:10:24.382573",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 6291.066666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:10:30.581993",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 6456.666666666667,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-03T00:11:28.411751",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 6470.8,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:11:34.002451",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 6479.066666666667,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-03T00:11:37.024977",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 6488.666666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:11:40.481304",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 6648.133333333333,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-03T00:12:31.610323",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 6684.400000000001,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:12:42.369637",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 6779.6,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-03T00:13:15.994582",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 6784.933333333333,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:13:18.130007",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 6845.200000000001,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:13:37.977585",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 7049.733333333334,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-03T00:14:48.445852",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 7054.0,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:14:50.124054",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 7088.666666666667,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-03T00:15:01.631036",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 7175.066666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:15:29.090877",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 7193.733333333334,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-03T00:15:35.620844",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 7197.200000000001,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:15:37.018563",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 7266.0,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T00:15:58.863818",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 7291.866666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T00:16:07.688910",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 7318.266666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T00:16:16.418265",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 7335.866666666667,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T00:16:22.320127",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 7370.266666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T00:16:33.832595",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 7426.0,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T00:16:52.054543",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 7440.133333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:16:56.836470",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 7446.8,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-03T00:16:59.364610",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 7448.933333333333,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-03T00:17:00.194557",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 7450.8,
+      "state": "Editing Last Suggestion",
+      "state_code": "X",
+      "timestamp": "2025-01-03T00:17:01.085002",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 7471.866666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:17:08.267666",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 7518.8,
+      "state": "Not Thinking",
+      "state_code": "S",
+      "timestamp": "2025-01-03T00:17:23.325838",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 7523.333333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:17:25.084678",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 7701.200000000001,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T00:20:52.847725",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 7721.200000000001,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:20:58.556812",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 7777.466666666667,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T00:21:15.814338",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 7837.200000000001,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T00:21:33.791367",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 7864.933333333333,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T00:21:42.237112",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 7891.866666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:22:42.819594",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 7921.266666666667,
+      "state": "Editing Last Suggestion",
+      "state_code": "X",
+      "timestamp": "2025-01-03T00:22:52.114298",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 7922.5,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:22:54.564185",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 7995.866666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T00:24:18.816417",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 8004.133333333334,
+      "state": "Editing Last Suggestion",
+      "state_code": "X",
+      "timestamp": "2025-01-03T00:24:21.253276",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 8019.6,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:24:25.621946",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 8146.266666666667,
+      "state": "Thinking about New Code",
+      "state_code": "F",
+      "timestamp": "2025-01-03T00:25:19.009300",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 8153.733333333334,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-03T00:25:21.492475",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 8174.8,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:25:27.780266",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 8234.533333333333,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T00:25:45.722258",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 8300.4,
+      "state": "Editing Last Suggestion",
+      "state_code": "X",
+      "timestamp": "2025-01-03T00:26:05.563357",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 8306.533333333333,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:26:07.717596",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 8616.933333333334,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-03T00:28:39.503820",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 8620.133333333333,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:28:40.489450",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 8659.066666666668,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T00:28:51.353612",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 8673.733333333334,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T00:28:55.610426",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 8724.933333333334,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T00:29:11.106534",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 8751.6,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:29:19.353220",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 8760.933333333334,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T00:29:22.362947",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 8786.800000000001,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T00:29:30.188159",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 8840.133333333333,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T00:29:46.258685",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 8864.666666666668,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:29:53.846303",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 8872.133333333333,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T00:29:56.444615",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 8906.533333333335,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T00:30:07.089434",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 8966.800000000001,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T00:30:47.384883",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 8987.066666666668,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T00:30:52.979117",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 9017.466666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T00:31:01.335092",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 9066.800000000001,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T00:31:15.882187",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 9078.800000000001,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:31:19.757159",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 9231.6,
+      "state": "Writing New Functionality",
+      "state_code": "Z",
+      "timestamp": "2025-01-03T00:32:18.994440",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 9246.533333333335,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:32:23.621275",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 9266.800000000001,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-03T00:32:29.987179",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 9270.800000000001,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:32:31.473086",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 9370.533333333335,
+      "state": "Writing New Functionality",
+      "state_code": "Z",
+      "timestamp": "2025-01-03T00:33:04.193700",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 9393.466666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:33:12.108537",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 9398.0,
+      "state": "Writing New Functionality",
+      "state_code": "Z",
+      "timestamp": "2025-01-03T00:33:13.956511",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 9600.933333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:34:16.668789",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 9670.266666666666,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-03T00:34:39.652515",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 9674.266666666666,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:34:41.280447",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 9716.4,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-03T00:34:54.803154",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 9727.866666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:34:58.947073",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 9748.666666666668,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-03T00:35:06.204685",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 9759.6,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:35:10.306412",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 9949.466666666667,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-03T00:36:11.479302",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 9954.0,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:36:13.216265",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 9966.800000000001,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-03T00:36:17.543406",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 9973.733333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:36:20.093304",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 10033.733333333334,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T00:36:39.193522",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 10062.800000000001,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-03T00:36:50.515492",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 10070.533333333335,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T00:36:52.730326",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 10084.666666666668,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T00:36:56.920333",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 10149.466666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T00:37:18.355975",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 10163.066666666668,
+      "state": "Looking up Documentation",
+      "state_code": "N",
+      "timestamp": "2025-01-03T00:37:24.054152",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 10202.533333333335,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:37:38.155528",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 10248.933333333334,
+      "state": "Looking up Documentation",
+      "state_code": "N",
+      "timestamp": "2025-01-03T00:37:52.988439",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 10259.333333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:37:56.832144",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 10278.0,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-03T00:38:03.759744",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 10320.933333333334,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T00:38:18.059631",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 10339.066666666668,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T00:38:25.124391",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 10402.533333333335,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T00:38:45.606923",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 10411.6,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:38:48.511821",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 10414.533333333335,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T00:38:49.639038",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 10417.2,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T00:38:50.784385",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 10483.866666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T00:39:12.232160",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 10496.933333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:39:16.719616",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 10524.666666666668,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-03T00:39:25.987850",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 10528.133333333333,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:39:27.354306",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 10538.533333333335,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T00:39:31.124389",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 10595.066666666668,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T00:39:49.700921",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 10673.466666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T00:40:15.816050",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 10687.333333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:40:20.611870",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 10792.666666666668,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-03T00:40:55.201904",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 10798.266666666666,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:40:57.337828",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 10804.666666666668,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T00:40:59.955341",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 10823.6,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T00:41:06.522353",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 10841.466666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T00:41:13.034749",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 10885.466666666667,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T00:41:26.293085",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 10937.2,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T00:41:42.340963",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 10959.866666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T00:41:49.764550",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 10994.266666666666,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T00:42:01.251101",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 11028.133333333333,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T00:42:12.992645",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 11046.533333333335,
+      "state": "Writing New Functionality",
+      "state_code": "Z",
+      "timestamp": "2025-01-03T00:42:19.259552",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 11081.2,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T00:42:30.580010",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 11101.466666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T00:42:37.716031",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 11116.133333333333,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T00:42:42.711928",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 11118.800000000001,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T00:42:43.910531",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 11123.6,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T00:42:45.884683",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 11128.666666666668,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T00:42:48.005859",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 11228.666666666668,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T00:43:33.777070",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 11277.733333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:43:49.160667",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 11295.333333333334,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-03T00:43:55.389237",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 11307.066666666668,
+      "state": "Writing New Functionality",
+      "state_code": "Z",
+      "timestamp": "2025-01-03T00:43:59.677318",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 11311.6,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:44:01.640320",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 11324.933333333334,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-03T00:44:06.620134",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 11344.933333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:44:13.500875",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 11358.0,
+      "state": "Writing New Functionality",
+      "state_code": "Z",
+      "timestamp": "2025-01-03T00:44:18.148400",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 11368.666666666668,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:44:22.023415",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 11379.066666666668,
+      "state": "Writing New Functionality",
+      "state_code": "Z",
+      "timestamp": "2025-01-03T00:44:26.028004",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 11442.0,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:44:46.289265",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 11466.0,
+      "state": "Writing New Functionality",
+      "state_code": "Z",
+      "timestamp": "2025-01-03T00:44:53.587939",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 11484.133333333333,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:45:00.395149",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 11523.6,
+      "state": "Writing New Functionality",
+      "state_code": "Z",
+      "timestamp": "2025-01-03T00:45:14.332782",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 11527.6,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:45:16.101068",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 11538.533333333335,
+      "state": "Writing New Functionality",
+      "state_code": "Z",
+      "timestamp": "2025-01-03T00:45:19.982884",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 11541.466666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:45:21.155162",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 11590.800000000001,
+      "state": "Writing New Functionality",
+      "state_code": "Z",
+      "timestamp": "2025-01-03T00:45:37.990887",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 11593.466666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:45:39.122949",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 11647.466666666667,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-03T00:46:04.996434",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 11664.6,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T00:46:23.677679",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 11703.800000000001,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T00:46:36.529968",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 11813.933333333334,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T00:47:13.942192",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 0.0,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T00:47:22.412203",
+      "video_path": "C:/Users/iLux1/Downloads/Cursor Task4.mp4"
+    },
+    {
+      "time": 4.8,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T22:04:09.417271",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Cursor Task  5.mp4"
+    },
+    {
+      "time": 154.3,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T22:05:24.845127",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Cursor Task  5.mp4"
+    },
+    {
+      "time": 168.16666666666666,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T22:05:28.498079",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Cursor Task  5.mp4"
+    },
+    {
+      "time": 187.83333333333334,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T22:06:02.125923",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Cursor Task  5.mp4"
+    },
+    {
+      "time": 221.93333333333334,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T22:06:15.386225",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Cursor Task  5.mp4"
+    },
+    {
+      "time": 232.5,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T22:06:29.944002",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Cursor Task  5.mp4"
+    },
+    {
+      "time": 277.3333333333333,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T22:08:44.019547",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Cursor Task  5.mp4"
+    },
+    {
+      "time": 324.3333333333333,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T22:08:53.357278",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Cursor Task  5.mp4"
+    },
+    {
+      "time": 342.93333333333334,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T22:08:57.207689",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Cursor Task  5.mp4"
+    },
+    {
+      "time": 345.43333333333334,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T22:09:00.769577",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Cursor Task  5.mp4"
+    },
+    {
+      "time": 347.3333333333333,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T22:09:03.450612",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Cursor Task  5.mp4"
+    },
+    {
+      "time": 352.3666666666667,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T22:09:04.933529",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Cursor Task  5.mp4"
+    },
+    {
+      "time": 434.6333333333333,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T22:09:28.000033",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Cursor Task  5.mp4"
+    },
+    {
+      "time": 469.3,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T22:09:34.107220",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Cursor Task  5.mp4"
+    },
+    {
+      "time": 489.1666666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T22:10:10.303246",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Cursor Task  5.mp4"
+    },
+    {
+      "time": 508.3,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T22:10:15.197928",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Cursor Task  5.mp4"
+    },
+    {
+      "time": 526.1666666666666,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T22:10:18.368428",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Cursor Task  5.mp4"
+    },
+    {
+      "time": 580.5666666666666,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T22:10:28.076665",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Cursor Task  5.mp4"
+    },
+    {
+      "time": 638.7,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T22:10:38.354823",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Cursor Task  5.mp4"
+    },
+    {
+      "time": 658.3,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T22:10:43.787672",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Cursor Task  5.mp4"
+    },
+    {
+      "time": 686.2666666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T22:11:01.507713",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Cursor Task  5.mp4"
+    },
+    {
+      "time": 708.6666666666666,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T22:11:05.495593",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Cursor Task  5.mp4"
+    },
+    {
+      "time": 729.2,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T22:11:09.160614",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Cursor Task  5.mp4"
+    },
+    {
+      "time": 735.6,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T22:11:10.312954",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Cursor Task  5.mp4"
+    },
+    {
+      "time": 763.0666666666666,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T22:11:15.175456",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Cursor Task  5.mp4"
+    },
+    {
+      "time": 793.2,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T22:11:20.507688",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Cursor Task  5.mp4"
+    },
+    {
+      "time": 806.8,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T22:11:22.948075",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Cursor Task  5.mp4"
+    },
+    {
+      "time": 812.9333333333333,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T22:11:24.047384",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Cursor Task  5.mp4"
+    },
+    {
+      "time": 845.8,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T22:11:45.389992",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Cursor Task  5.mp4"
+    },
+    {
+      "time": 868.5,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T22:11:50.440094",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Cursor Task  5.mp4"
+    },
+    {
+      "time": 872.4666666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T22:12:41.607882",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Cursor Task  5.mp4"
+    },
+    {
+      "time": 894.7666666666667,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T22:12:47.055711",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Cursor Task  5.mp4"
+    },
+    {
+      "time": 905.1666666666666,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T22:12:49.484383",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Cursor Task  5.mp4"
+    },
+    {
+      "time": 928.0,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T22:12:55.977503",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Cursor Task  5.mp4"
+    },
+    {
+      "time": 936.6999999999999,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T22:13:01.005819",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Cursor Task  5.mp4"
+    },
+    {
+      "time": 952.9666666666667,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T22:13:09.159100",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Cursor Task  5.mp4"
+    },
+    {
+      "time": 966.0666666666666,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T22:13:11.876053",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Cursor Task  5.mp4"
+    },
+    {
+      "time": 996.1999999999999,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T22:13:17.206915",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Cursor Task  5.mp4"
+    },
+    {
+      "time": 1009.0,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T22:13:19.491571",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Cursor Task  5.mp4"
+    },
+    {
+      "time": 6.066666666666666,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T22:13:49.989096",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 203.93333333333334,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T22:16:58.476715",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 258.23333333333335,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T22:17:48.015334",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 300.93333333333334,
+      "state": "Writing New Functionality",
+      "state_code": "Z",
+      "timestamp": "2025-01-03T22:18:59.953747",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 307.46666666666664,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T22:19:04.312651",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 324.26666666666665,
+      "state": "Writing New Functionality",
+      "state_code": "Z",
+      "timestamp": "2025-01-03T22:19:07.338562",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 349.3333333333333,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T22:19:11.878955",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 368.26666666666665,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T22:19:15.316845",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 386.1333333333333,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T22:19:18.522257",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 401.8666666666667,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T22:19:21.444676",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 411.46666666666664,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T22:19:23.191661",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 424.0,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T22:19:25.534026",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 435.2,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T22:19:27.590333",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 451.46666666666664,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T22:19:31.112733",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 467.26666666666665,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T22:20:05.185298",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 493.23333333333335,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-03T22:20:24.262860",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 496.6666666666667,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T22:20:29.208228",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 592.0666666666666,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T22:20:46.912260",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 623.0,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T22:20:52.479066",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 666.2,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T22:21:00.288769",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 691.0,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T22:21:04.773785",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 712.0666666666666,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T22:21:09.387684",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 729.1333333333333,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T22:21:12.465643",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 751.8,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T22:21:16.579384",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 777.1333333333333,
+      "state": "Editing Last Suggestion",
+      "state_code": "X",
+      "timestamp": "2025-01-03T22:21:21.104357",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 784.6,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T22:21:23.157063",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 801.3666666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T22:21:29.522530",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 812.9666666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T22:21:34.082408",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 853.3666666666667,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T22:21:46.962885",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 914.1666666666666,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T22:21:58.495895",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 1002.9666666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T22:22:14.710475",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 1021.6333333333333,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T22:22:18.217166",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 1037.7,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-03T22:22:27.548911",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 1050.1333333333332,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T22:23:32.657050",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 1054.6333333333332,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T22:23:37.340368",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 1100.6666666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T22:24:00.061953",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 1149.2,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T22:24:08.733013",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 1156.1333333333332,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T22:24:09.961636",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 1194.5333333333333,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T22:24:16.915964",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 1209.7333333333333,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T22:24:19.666669",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 1283.4333333333334,
+      "state": "Editing Last Suggestion",
+      "state_code": "X",
+      "timestamp": "2025-01-03T22:24:48.532922",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 1305.3333333333333,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T22:24:56.962666",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 1316.2666666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T22:25:00.412575",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 1458.6333333333332,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T22:25:30.975211",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 1531.4333333333334,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T22:25:46.745282",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 1560.2333333333333,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T22:25:51.925315",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 1604.7666666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T22:26:06.566250",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 1617.0333333333333,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T22:26:08.759754",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 1639.7,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T22:26:25.087194",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 1647.6666666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T22:26:27.148885",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 1668.4666666666667,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T22:26:34.431943",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 1764.7333333333333,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T22:26:55.962730",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 1772.2,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T22:26:57.610517",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 1800.4666666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T22:27:03.993408",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 1845.8,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T22:27:14.087378",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 1861.8,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T22:27:17.551744",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 1914.2666666666667,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T22:27:27.159471",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 1921.0666666666666,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T22:27:36.708685",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 1963.8,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-03T22:27:51.238768",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 1964.5,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T22:27:52.266683",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 1969.4666666666667,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-03T22:27:59.275600",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 1970.7333333333333,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T22:28:01.084987",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 2106.5333333333333,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-03T22:30:24.622478",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 2107.5,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T22:30:26.042120",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 2128.8,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-03T22:30:34.870847",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 2129.366666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T22:30:35.701144",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 2156.5,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-03T22:30:41.335517",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 2159.6666666666665,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T22:30:45.801867",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 2364.366666666667,
+      "state": "Thinking about New Code",
+      "state_code": "F",
+      "timestamp": "2025-01-03T22:31:52.297294",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 2371.2,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T22:31:54.645410",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 2484.3333333333335,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T22:32:19.155730",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 2535.2666666666664,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T22:32:28.305974",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 2587.8,
+      "state": "Writing New Functionality",
+      "state_code": "Z",
+      "timestamp": "2025-01-03T22:32:37.653317",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 2628.6,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T22:32:46.405954",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 2674.4666666666667,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T22:32:56.235676",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 2681.4,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T22:32:57.862628",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 2722.733333333333,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T22:33:05.583908",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 2726.2,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-03T22:33:06.304925",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 2756.6,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-03T22:33:13.057777",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 2775.8333333333335,
+      "state": "Editing Last Suggestion",
+      "state_code": "X",
+      "timestamp": "2025-01-03T22:33:21.539976",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 2792.4,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T22:33:26.001937",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 2853.5333333333333,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-03T22:33:40.577420",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 2854.6666666666665,
+      "state": "Looking up Documentation",
+      "state_code": "N",
+      "timestamp": "2025-01-03T22:33:42.225603",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 2854.9,
+      "state": "Looking up Documentation",
+      "state_code": "N",
+      "timestamp": "2025-01-03T22:33:42.546301",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 2829.6666666666665,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T22:33:48.058281",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 2848.8333333333335,
+      "state": "Looking up Documentation",
+      "state_code": "N",
+      "timestamp": "2025-01-03T22:34:05.618242",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 3006.866666666667,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-03T22:35:42.784744",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
+    },
+    {
+      "time": 3106.3333333333335,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-03T22:36:15.375079",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Github Copilot Task 5.mp4"
     }
   ],
-  "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github-Task01-Part1.mp4",
-  "last_save": "2024-12-17T14:54:02.034024"
+  "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Cursor Task  5.mp4",
+  "last_save": "2025-01-05T18:12:37.792480"
 }

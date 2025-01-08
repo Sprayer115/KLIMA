@@ -9,11 +9,11 @@ const { toast } = useToast()
  * @property {Object} generalInput
  * @property {Object} generalInput.entAllg
  * @property {number} generalInput.entAllg.Notfallkap
- * @property {number} generalInput.entAllg.WeVerlaengern
- * @property {number} generalInput.entAllg.WeAufnehmen
- * @property {number} generalInput.entAllg.Qualisicherung
- * @property {number} generalInput.entAllg.Oeffentlichkeitsarbeit
- * @property {number} generalInput.entAllg.PatAnUni
+ * @property {boolean} generalInput.entAllg.WeVerlaengern
+ * @property {boolean} generalInput.entAllg.WeAufnehmen
+ * @property {boolean} generalInput.entAllg.Qualisicherung
+ * @property {boolean} generalInput.entAllg.Oeffentlichkeitsarbeit
+ * @property {boolean} generalInput.entAllg.PatAnUni
  * @property {Object} generalInput.entWahl
  * @property {Object} generalInput.entWahl.EntWahl1
  * @property {number} generalInput.entWahl.EntWahl1.ZuschFallpauschale
@@ -43,11 +43,11 @@ export const useGeneralInputStore = defineStore('generalInput', {
     generalInput: {
       entAllg: {
         Notfallkap: 15.1,
-        WeVerlaengern: -1,
-        WeAufnehmen: 0,
-        Qualisicherung: 0,
-        Oeffentlichkeitsarbeit: 0.00,
-        PatAnUni: 0
+        WeVerlaengern: false,
+        WeAufnehmen: false,
+        Qualisicherung: false,
+        Oeffentlichkeitsarbeit: 0.0,
+        PatAnUni: false
       },
       entWahl: {
         EntWahl1: {
@@ -83,8 +83,8 @@ export const useGeneralInputStore = defineStore('generalInput', {
   getters: {
     activeFieldsCount: (state) => {
       let count = 0
-      // Count non-zero fields in entAllg
-      count += Object.values(state.generalInput.entAllg).filter(value => value > 0).length
+      // Count non-zero and true fields in entAllg
+      count += Object.values(state.generalInput.entAllg).filter(value => value > 0 || value === true).length
       // Count non-zero fields in entWahl
       for (const key in state.generalInput.entWahl) {
         count += Object.values(state.generalInput.entWahl[key]).filter(value => value > 0).length
@@ -106,16 +106,31 @@ export const useGeneralInputStore = defineStore('generalInput', {
         ...Object.values(state.generalInput.entSachLeistung.VerSachmittel),
         ...Object.values(state.generalInput.entSachLeistung.VerLeistung)
       ]
-      return allValues.every(value => typeof value === 'number' && !isNaN(value))
+      return allValues.every(value => (typeof value === 'number' && !isNaN(value)) || typeof value === 'boolean')
     }
   },
 
   actions: {
-    setField(section, field, value) {
-      if (this.generalInput[section] && this.generalInput[section][field] !== undefined) {
-        this.generalInput[section][field] = value
+    setField(sectionPath, field, value) {
+      const sections = sectionPath.split('.')
+      let target = this.generalInput
+
+      for (const section of sections) {
+        if (target[section] === undefined) {
+          console.log(`Section ${section} not found in path ${sectionPath}`)
+          return
+        }
+        target = target[section]
+      }
+
+      if (target[field] !== undefined) {
+        const currentType = typeof target[field]
+        target[field] = currentType === 'boolean' ? Boolean(value) : Number(value)
         this.isDirty = true
-        this.saveToLocalStorage()
+        console.log("updating module generalInput", this.generalInput)
+        useGameDataStore().updateModule('generalInput', this.generalInput)
+      } else {
+        console.log(`Field ${field} in section ${sectionPath} not found`)
       }
     },
 
@@ -124,16 +139,58 @@ export const useGeneralInputStore = defineStore('generalInput', {
         this.generalInput = { ...data.generalInput }
       }
     },
-
+  
     initialize() {
       const gameDataStore = useGameDataStore()
       gameDataStore.registerModuleHandler(this.updateFromGameData.bind(this))
-
-      // Load from local storage
-      this.loadFromLocalStorage()
       
-      // Load from server
-      this.loadFromServer()
-    }   
+      // Check local storage immediately
+      const stored = localStorage.getItem('gameCurrentPeriod')
+      if (stored) {
+        const parsed = JSON.parse(stored)
+        const data = parsed.currentPeriodData.decisions.data
+        if (data.generalInput && Object.keys(data.generalInput).length > 0) {
+          this.generalInput = { ...data.generalInput }
+        } else {
+          console.log("generalInput initialized from standard")
+          gameDataStore.currentPeriodData.decisions.data.generalInput = this.generalInput
+        }
+      }
+      console.log("generalInput initialized", this.generalInput)
+    },
+
+    saveToLocalStorage() {
+      localStorage.setItem('gameCurrentPeriod', JSON.stringify({
+        metadata: this.metadata,
+        currentPeriodData: this.currentPeriodData
+      }))
+    },
+
+    async saveToServer() {
+      try {
+        const response = await fetch('/api/periods/current', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${useAuthStore().token}`
+          },
+          body: JSON.stringify({
+            metadata: this.metadata,
+            periodData: this.currentPeriodData
+          })
+        })
+        const result = await response.json()
+        this.metadata.lastModified = new Date().toISOString()
+        this.currentPeriodData.decisions.timestamp = result.timestamp
+        this.isDirty = false
+        this.saveToLocalStorage()
+      } catch (error) {
+        toast({ 
+          title: 'Error', 
+          description: error.message, 
+          variant: 'destructive' 
+        })
+      }
+    }
   }
 })

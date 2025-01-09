@@ -1,4 +1,3 @@
-// router/index.js
 import { createRouter, createWebHistory } from 'vue-router'
 import { useAuthStore } from '@/stores/auth'
 
@@ -27,21 +26,45 @@ const routes = [
       },
       {
         path: 'goals',
-        name: 'goals',
+        name: 'Goals',
         component: () => import('@/views/Goals.vue'),
         meta: { requiresAuth: true}
       },
       {
         path: 'general-input',
-        name: 'general-input',
+        name: 'GeneralInput',
         component: () => import('@/views/input/GeneralInput.vue'),
         meta: { requiresAuth: true}
       },
       {
         path: 'fallpauschalen',
-        name: 'fallpauschalen',
+        name: 'Fallpauschalen',
         component: () => import('@/views/input/Fallpauschalen.vue'),
         meta: { requiresAuth: true}
+      },
+      {
+        path: 'leistungsangebot',
+        name: 'Leistungsangebot',
+        component: () => import('@/views/input/Leistungsangebot.vue'),
+        meta: { requiresAuth: true }
+      },
+      {
+        path: 'personal-und-abteilungen',
+        name: 'PersonalUndAbteilungen',
+        component: () => import('@/views/input/PersonalUndAbteilungen.vue'),
+        meta: { requiresAuth: true }
+      },
+      {
+        path: 'forschung-investition-und-zgb',
+        name: 'ForschungInvestitionUndZGB',
+        component: () => import('@/views/input/ForschungInvestitionUndZGB.vue'),
+        meta: { requiresAuth: true }
+      },
+      {
+        path: 'verweildauer-und-zentralbereiche',
+        name: 'VerweildauerUndZentralbereiche',
+        component: () => import('@/views/input/VerweildauerUndZentralbereiche.vue'),
+        meta: { requiresAuth: true }
       }
     ]
   },
@@ -86,7 +109,6 @@ router.beforeEach((to, from, next) => {
   if (to.meta.requiresAdmin && !isAdmin) {
     return next('/')
   }
-
 
   // Proceed with navigation
   next()

@@ -1,35 +1,39 @@
-<EntAllg>
-<Notfallkap>15,1</Notfallkap>
-<WeVerlaengern>-1</WeVerlaengern>
-<WeAufnehmen>0</WeAufnehmen>
-<Qualisicherung>0</Qualisicherung>
-<Oeffentlichkeitsarbeit>0,00</Oeffentlichkeitsarbeit>
-<PatAnUni>0</PatAnUni>
-<EntWahl>
-<EntWahl1>
-<ZuschFallpauschale>35,8</ZuschFallpauschale>
-<MehrSachmittel>30,0</MehrSachmittel>
-<MehLebensmittel>2,55</MehLebensmittel>
-</EntWahl1>
-<EntWahl2>
-<ZuschFallpauschale>21,5</ZuschFallpauschale>
-<MehrSachmittel>20,0</MehrSachmittel>
-<MehLebensmittel>1,70</MehLebensmittel>
-</EntWahl2>
-</EntWahl>
-<EntSachLeistung>
-<VerSachmittel>
-<Innere>0,0</Innere>
-<Chir>0,0</Chir>
-<Gyn>0,0</Gyn>
-<Labor>0,0</Labor>
-<Op>0,0</Op>
-<Sonstige>0,0</Sonstige>
-</VerSachmittel>
-<VerLeistung>
-<Innere>0,0</Innere>
-<Chir>0,0</Chir>
-<Gyn>0,0</Gyn>
-</VerLeistung>
-</EntSachLeistung>
-</EntAllg>
+<EntLeistung>
+<DRG1>-1</DRG1>
+<DRG2>-1</DRG2>
+<DRG3>-1</DRG3>
+<DRG4>-1</DRG4>
+<DRG5>-1</DRG5>
+<DRG6>-1</DRG6>
+<DRG7>-1</DRG7>
+<DRG8>-1</DRG8>
+<DRG9>-1</DRG9>
+<DRG10>-1</DRG10>
+<DRG11>-1</DRG11>
+<DRG12>-1</DRG12>
+<DRG13>-1</DRG13>
+<DRG14>0</DRG14>
+<DRG15>-1</DRG15>
+<DRG16>-1</DRG16>
+<DRG17>-1</DRG17>
+</EntLeistung>
+
+const medicalCategories: string[] = [
+    "Neubildungen (innere Medizin)",
+    "Diabetes",
+    "Kreislauferkrankungen bis 61",
+    "Kreislauferkrankungen über 61",
+    "Verdauungsorgane bis 61",
+    "Verdauungsorgane über 61",
+    "Kreislauferkrankungen",
+    "Neubildungen (Chirurgie)",
+    "Verdauungsorgane bis 61",
+    "Verdauungsorgane über 61",
+    "Blinddarmerkrankungen",
+    "Verletzungen",
+    "Krankheit oberer Luftwege",
+    "Kieferchirurgische Eingriffe",
+    "Entbindung ohne OP",
+    "Entbindung mit OP",
+    "Weibliche Geschlechtsorgane"
+];

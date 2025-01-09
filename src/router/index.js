@@ -36,6 +36,12 @@ const routes = [
         name: 'general-input',
         component: () => import('@/views/input/GeneralInput.vue'),
         meta: { requiresAuth: true}
+      },
+      {
+        path: 'fallpauschalen',
+        name: 'fallpauschalen',
+        component: () => import('@/views/input/Fallpauschalen.vue'),
+        meta: { requiresAuth: true}
       }
     ]
   },

@@ -25,6 +25,12 @@
             Allgemein
           </router-link>
           <router-link 
+            to="/fallpauschalen" 
+            class="text-sm font-medium dark:text-slate-300 dark:hover:text-white transition-colors"
+          >
+            Fallpauschalen
+          </router-link>
+          <router-link 
             v-if="isAdmin" 
             to="/settings" 
             class="text-sm font-medium dark:text-slate-300 dark:hover:text-white transition-colors"

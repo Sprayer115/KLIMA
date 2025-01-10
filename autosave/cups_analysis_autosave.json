@@ -1791,8 +1791,526 @@
       "timestamp": "2024-12-16T14:50:29.732253",
       "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github - Task01 Full.mp4",
       "timePassed": 59.39
+    },
+    {
+      "time": 3.0333333333333337,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-10T09:57:48.168287",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Aider Task 5.mp4"
+    },
+    {
+      "time": 233.0,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-10T10:01:57.801080",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Aider Task 5.mp4"
+    },
+    {
+      "time": 278.06666666666666,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-10T10:02:25.481956",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Aider Task 5.mp4"
+    },
+    {
+      "time": 321.1666666666667,
+      "state": "Not Thinking",
+      "state_code": "S",
+      "timestamp": "2025-01-10T10:03:55.938251",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Aider Task 5.mp4"
+    },
+    {
+      "time": 376.40000000000003,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-10T10:04:46.398873",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Aider Task 5.mp4"
+    },
+    {
+      "time": 423.5,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-10T10:04:56.848435",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Aider Task 5.mp4"
+    },
+    {
+      "time": 448.56666666666666,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-10T10:05:03.057732",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Aider Task 5.mp4"
+    },
+    {
+      "time": 471.1,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-10T10:05:39.668623",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Aider Task 5.mp4"
+    },
+    {
+      "time": 498.33333333333337,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-10T10:07:40.086954",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Aider Task 5.mp4"
+    },
+    {
+      "time": 545.4,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-10T10:07:56.114481",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Aider Task 5.mp4"
+    },
+    {
+      "time": 646.9,
+      "state": "Not Thinking",
+      "state_code": "S",
+      "timestamp": "2025-01-10T10:08:34.141526",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Aider Task 5.mp4"
+    },
+    {
+      "time": 652.2333333333333,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-10T10:08:41.638118",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Aider Task 5.mp4"
+    },
+    {
+      "time": 655.0333333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-10T10:08:45.511021",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Aider Task 5.mp4"
+    },
+    {
+      "time": 944.6666666666667,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-10T10:10:48.514621",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Aider Task 5.mp4"
+    },
+    {
+      "time": 963.6,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-10T10:11:04.179711",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Aider Task 5.mp4"
+    },
+    {
+      "time": 993.2,
+      "state": "Not Thinking",
+      "state_code": "S",
+      "timestamp": "2025-01-10T10:11:14.857914",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Aider Task 5.mp4"
+    },
+    {
+      "time": 1051.6333333333334,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-10T10:11:32.966809",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Aider Task 5.mp4"
+    },
+    {
+      "time": 1066.0333333333333,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-10T10:11:40.682020",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Aider Task 5.mp4"
+    },
+    {
+      "time": 1080.4333333333334,
+      "state": "Editing Last Suggestion",
+      "state_code": "X",
+      "timestamp": "2025-01-10T10:11:48.176995",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Aider Task 5.mp4"
+    },
+    {
+      "time": 1084.5,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-10T10:11:53.839766",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Aider Task 5.mp4"
+    },
+    {
+      "time": 1103.6333333333334,
+      "state": "Editing Last Suggestion",
+      "state_code": "X",
+      "timestamp": "2025-01-10T10:12:02.269102",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Aider Task 5.mp4"
+    },
+    {
+      "time": 1158.9666666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-10T10:12:21.646798",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Aider Task 5.mp4"
+    },
+    {
+      "time": 1194.5,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-10T10:12:29.226532",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Aider Task 5.mp4"
+    },
+    {
+      "time": 1234.3333333333335,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-10T10:12:38.490709",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Aider Task 5.mp4"
+    },
+    {
+      "time": 1278.5666666666668,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-10T10:12:46.502724",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Aider Task 5.mp4"
+    },
+    {
+      "time": 1285.7666666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-10T10:12:47.762075",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Aider Task 5.mp4"
+    },
+    {
+      "time": 1298.9,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-10T10:12:51.067745",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Aider Task 5.mp4"
+    },
+    {
+      "time": 1326.9666666666667,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-10T10:12:56.363267",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Aider Task 5.mp4"
+    },
+    {
+      "time": 1373.8666666666668,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-10T10:13:14.987012",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Aider Task 5.mp4"
+    },
+    {
+      "time": 1385.6666666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-10T10:13:34.193012",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Aider Task 5.mp4"
+    },
+    {
+      "time": 1395.0,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-10T10:13:36.744523",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Aider Task 5.mp4"
+    },
+    {
+      "time": 1428.1000000000001,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-10T10:14:11.114972",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Aider Task 5.mp4"
+    },
+    {
+      "time": 1439.8333333333335,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-10T10:14:13.570691",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Aider Task 5.mp4"
+    },
+    {
+      "time": 1484.9,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-10T10:14:22.096197",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Aider Task 5.mp4"
+    },
+    {
+      "time": 1532.0666666666668,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-10T10:14:55.212584",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Aider Task 5.mp4"
+    },
+    {
+      "time": 1534.9333333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-10T10:14:59.245960",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 5/Aider Task 5.mp4"
+    },
+    {
+      "time": 4.933333333333334,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-10T10:15:54.285730",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 2/Aider/Aider Task 2.mp4"
+    },
+    {
+      "time": 361.23333333333335,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-10T10:18:51.785738",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 2/Aider/Aider Task 2.mp4"
+    },
+    {
+      "time": 415.6333333333333,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-10T10:19:03.202434",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 2/Aider/Aider Task 2.mp4"
+    },
+    {
+      "time": 462.6333333333333,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-10T10:23:15.549254",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 2/Aider/Aider Task 2.mp4"
+    },
+    {
+      "time": 495.56666666666666,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-10T10:23:24.210974",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 2/Aider/Aider Task 2.mp4"
+    },
+    {
+      "time": 518.7,
+      "state": "Writing New Functionality",
+      "state_code": "Z",
+      "timestamp": "2025-01-10T10:23:38.092052",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 2/Aider/Aider Task 2.mp4"
+    },
+    {
+      "time": 522.9,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-10T10:23:45.198291",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 2/Aider/Aider Task 2.mp4"
+    },
+    {
+      "time": 612.2333333333333,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-10T10:24:02.136026",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 2/Aider/Aider Task 2.mp4"
+    },
+    {
+      "time": 707.2333333333333,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-10T10:24:20.244007",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 2/Aider/Aider Task 2.mp4"
+    },
+    {
+      "time": 769.6,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-10T10:24:44.402011",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 2/Aider/Aider Task 2.mp4"
+    },
+    {
+      "time": 806.1666666666666,
+      "state": "Editing Last Suggestion",
+      "state_code": "X",
+      "timestamp": "2025-01-10T10:24:52.991939",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 2/Aider/Aider Task 2.mp4"
+    },
+    {
+      "time": 817.5333333333333,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-10T10:24:57.278284",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 2/Aider/Aider Task 2.mp4"
+    },
+    {
+      "time": 842.4333333333333,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-10T10:25:04.507909",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 2/Aider/Aider Task 2.mp4"
+    },
+    {
+      "time": 858.8,
+      "state": "Editing Last Suggestion",
+      "state_code": "X",
+      "timestamp": "2025-01-10T10:25:11.312430",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 2/Aider/Aider Task 2.mp4"
+    },
+    {
+      "time": 885.4666666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-10T10:25:17.365124",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 2/Aider/Aider Task 2.mp4"
+    },
+    {
+      "time": 907.1666666666666,
+      "state": "Editing Last Suggestion",
+      "state_code": "X",
+      "timestamp": "2025-01-10T10:25:23.296537",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 2/Aider/Aider Task 2.mp4"
+    },
+    {
+      "time": 909.1333333333333,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-10T10:25:26.039268",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 2/Aider/Aider Task 2.mp4"
+    },
+    {
+      "time": 914.8666666666667,
+      "state": "Not Thinking",
+      "state_code": "S",
+      "timestamp": "2025-01-10T10:25:28.658143",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 2/Aider/Aider Task 2.mp4"
+    },
+    {
+      "time": 1177.1333333333332,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-10T10:26:24.660155",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 2/Aider/Aider Task 2.mp4"
+    },
+    {
+      "time": 1212.0,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-10T10:26:43.363175",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 2/Aider/Aider Task 2.mp4"
+    },
+    {
+      "time": 1244.7666666666667,
+      "state": "Editing Last Suggestion",
+      "state_code": "X",
+      "timestamp": "2025-01-10T10:26:56.983419",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 2/Aider/Aider Task 2.mp4"
+    },
+    {
+      "time": 1253.2333333333333,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-10T10:26:59.849293",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 2/Aider/Aider Task 2.mp4"
+    },
+    {
+      "time": 1298.8333333333333,
+      "state": "Editing Last Suggestion",
+      "state_code": "X",
+      "timestamp": "2025-01-10T10:28:03.660918",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 2/Aider/Aider Task 2.mp4"
+    },
+    {
+      "time": 1316.0333333333333,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-10T10:28:08.255869",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 2/Aider/Aider Task 2.mp4"
+    },
+    {
+      "time": 1358.6,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-10T10:28:30.135231",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 2/Aider/Aider Task 2.mp4"
+    },
+    {
+      "time": 1369.9666666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-10T10:28:37.238575",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 2/Aider/Aider Task 2.mp4"
+    },
+    {
+      "time": 1386.2666666666667,
+      "state": "Looking up Documentation",
+      "state_code": "N",
+      "timestamp": "2025-01-10T10:28:44.051577",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 2/Aider/Aider Task 2.mp4"
+    },
+    {
+      "time": 1398.5,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-10T10:28:49.797935",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 2/Aider/Aider Task 2.mp4"
+    },
+    {
+      "time": 1427.5666666666666,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-10T10:29:23.182006",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 2/Aider/Aider Task 2.mp4"
+    },
+    {
+      "time": 1502.5,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-10T10:29:38.176126",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 2/Aider/Aider Task 2.mp4"
+    },
+    {
+      "time": 1505.0333333333333,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-10T10:29:41.714887",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 2/Aider/Aider Task 2.mp4"
+    },
+    {
+      "time": 1527.1,
+      "state": "Editing Last Suggestion",
+      "state_code": "X",
+      "timestamp": "2025-01-10T10:29:47.980818",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 2/Aider/Aider Task 2.mp4"
+    },
+    {
+      "time": 1534.8333333333333,
+      "state": "Prompt crafting",
+      "state_code": "V",
+      "timestamp": "2025-01-10T10:29:53.647682",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 2/Aider/Aider Task 2.mp4"
+    },
+    {
+      "time": 1555.9333333333334,
+      "state": "Waiting For Suggestion",
+      "state_code": "G",
+      "timestamp": "2025-01-10T10:30:00.414228",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 2/Aider/Aider Task 2.mp4"
+    },
+    {
+      "time": 1579.5,
+      "state": "Thinking/Verifying Suggestion",
+      "state_code": "A",
+      "timestamp": "2025-01-10T10:30:06.205049",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 2/Aider/Aider Task 2.mp4"
+    },
+    {
+      "time": 1594.4333333333334,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-10T10:30:09.565122",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 2/Aider/Aider Task 2.mp4"
+    },
+    {
+      "time": 1631.9666666666667,
+      "state": "Editing Written Code",
+      "state_code": "C",
+      "timestamp": "2025-01-10T10:30:42.335149",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 2/Aider/Aider Task 2.mp4"
+    },
+    {
+      "time": 1661.7666666666667,
+      "state": "Debugging/Testing Code",
+      "state_code": "H",
+      "timestamp": "2025-01-10T10:30:52.916629",
+      "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 2/Aider/Aider Task 2.mp4"
     }
   ],
-  "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 1/Github-Task01-Part1.mp4",
-  "last_save": "2024-12-17T14:54:02.034024"
+  "video_path": "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Task 2/Aider/Aider Task 2.mp4",
+  "last_save": "2025-01-10T10:31:23.539721"
 }

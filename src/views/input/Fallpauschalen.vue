@@ -20,7 +20,7 @@
           <TableBody>
             <TableRow v-for="dfk in innereMedizin" :key="dfk.id">
               <TableCell class="font-medium">
-                {{ dfk.id }}
+                {{ dfk.name }}
               </TableCell>
               <TableCell>{{ dfk.bezeichnung }}</TableCell>
               <TableCell>kein Wert</TableCell>
@@ -58,7 +58,7 @@
           <TableBody>
             <TableRow v-for="dfk in chirurgie" :key="dfk.id">
               <TableCell class="font-medium">
-                {{ dfk.id }}
+                {{ dfk.name }}
               </TableCell>
               <TableCell>{{ dfk.bezeichnung }}</TableCell>
               <TableCell>kein Wert</TableCell>
@@ -96,7 +96,7 @@
           <TableBody>
             <TableRow v-for="dfk in gynäkologie" :key="dfk.id">
               <TableCell class="font-medium">
-                {{ dfk.id }}
+                {{ dfk.name }}
               </TableCell>
               <TableCell>{{ dfk.bezeichnung }}</TableCell>
               <TableCell>kein Wert</TableCell>

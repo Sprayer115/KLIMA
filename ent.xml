@@ -1,39 +1,116 @@
-<EntLeistung>
-<DRG1>-1</DRG1>
-<DRG2>-1</DRG2>
-<DRG3>-1</DRG3>
-<DRG4>-1</DRG4>
-<DRG5>-1</DRG5>
-<DRG6>-1</DRG6>
-<DRG7>-1</DRG7>
-<DRG8>-1</DRG8>
-<DRG9>-1</DRG9>
-<DRG10>-1</DRG10>
-<DRG11>-1</DRG11>
-<DRG12>-1</DRG12>
-<DRG13>-1</DRG13>
-<DRG14>0</DRG14>
-<DRG15>-1</DRG15>
-<DRG16>-1</DRG16>
-<DRG17>-1</DRG17>
-</EntLeistung>
-
-const medicalCategories: string[] = [
-    "Neubildungen (innere Medizin)",
-    "Diabetes",
-    "Kreislauferkrankungen bis 61",
-    "Kreislauferkrankungen über 61",
-    "Verdauungsorgane bis 61",
-    "Verdauungsorgane über 61",
-    "Kreislauferkrankungen",
-    "Neubildungen (Chirurgie)",
-    "Verdauungsorgane bis 61",
-    "Verdauungsorgane über 61",
-    "Blinddarmerkrankungen",
-    "Verletzungen",
-    "Krankheit oberer Luftwege",
-    "Kieferchirurgische Eingriffe",
-    "Entbindung ohne OP",
-    "Entbindung mit OP",
-    "Weibliche Geschlechtsorgane"
-];
+<EntPersAbt>
+<PersEinsatz>
+<PersAbt>
+<Innere>
+<Aerzte>18</Aerzte>
+<Stationsschwestern>12</Stationsschwestern>
+<Krankenschwestern>56</Krankenschwestern>
+<Schwesternschuelerinnen>24</Schwesternschuelerinnen>
+</Innere>
+<Chir>
+<Aerzte>22</Aerzte>
+<Stationsschwestern>14</Stationsschwestern>
+<Krankenschwestern>66</Krankenschwestern>
+<Schwesternschuelerinnen>29</Schwesternschuelerinnen>
+</Chir>
+<Gyn>
+<Aerzte>7</Aerzte>
+<Stationsschwestern>6</Stationsschwestern>
+<Krankenschwestern>28</Krankenschwestern>
+<Schwesternschuelerinnen>12</Schwesternschuelerinnen>
+</Gyn>
+</PersAbt>
+<PVeraenZentral>
+<Kueche>0,0</Kueche>
+<Waescherei>0,0</Waescherei>
+<Reinigungsdienst>0,0</Reinigungsdienst>
+<Sonstige>0,0</Sonstige>
+</PVeraenZentral>
+<PVeraenFunk>
+<Labor>0,0</Labor>
+<Op>0,0</Op>
+<Sonstige>0,0</Sonstige>
+</PVeraenFunk>
+<Abtplanung>
+<Innere>5</Innere>
+<Chir>7</Chir>
+<Gyn>3</Gyn>
+</Abtplanung>
+<PEnt>
+<Belegarzt>0</Belegarzt>
+<Sozialarbeiter>0</Sozialarbeiter>
+</PEnt>
+</PersEinsatz>
+<Ueberstunden>
+<UeIntern>
+<Innere>
+<Aerzte>0,0</Aerzte>
+<Stationsschwestern>0,0</Stationsschwestern>
+<Krankenschwestern>0,0</Krankenschwestern>
+<Schwesternschuelerinnen>0,0</Schwesternschuelerinnen>
+</Innere>
+<Chir>
+<Aerzte>0,0</Aerzte>
+<Stationsschwestern>0,0</Stationsschwestern>
+<Krankenschwestern>0,0</Krankenschwestern>
+<Schwesternschuelerinnen>0,0</Schwesternschuelerinnen>
+</Chir>
+<Gyn>
+<Aerzte>0,0</Aerzte>
+<Stationsschwestern>0,0</Stationsschwestern>
+<Krankenschwestern>0,0</Krankenschwestern>
+<Schwesternschuelerinnen>0,0</Schwesternschuelerinnen>
+</Gyn>
+</UeIntern>
+<UeFunk>
+<Labor>0,0</Labor>
+<Op>0,0</Op>
+<Sonstige>0,0</Sonstige>
+</UeFunk>
+<UeZentral>
+<Zentral>0,0</Zentral>
+</UeZentral>
+</Ueberstunden>
+<PersonalPool>
+<PoolingAkt>
+<Innere>
+<Aerzte>18</Aerzte>
+<Stationsschwestern>12</Stationsschwestern>
+<Krankenschwestern>56</Krankenschwestern>
+<Schwesternschuelerinnen>24</Schwesternschuelerinnen>
+</Innere>
+<Chir>
+<Aerzte>22</Aerzte>
+<Stationsschwestern>14</Stationsschwestern>
+<Krankenschwestern>66</Krankenschwestern>
+<Schwesternschuelerinnen>29</Schwesternschuelerinnen>
+</Chir>
+<Gyn>
+<Aerzte>7</Aerzte>
+<Stationsschwestern>6</Stationsschwestern>
+<Krankenschwestern>28</Krankenschwestern>
+<Schwesternschuelerinnen>12</Schwesternschuelerinnen>
+</Gyn>
+</PoolingAkt>
+<PoolingVerg>
+<Innere>
+<Aerzte>18</Aerzte>
+<Stationsschwestern>12</Stationsschwestern>
+<Krankenschwestern>56</Krankenschwestern>
+<Schwesternschuelerinnen>24</Schwesternschuelerinnen>
+</Innere>
+<Chir>
+<Aerzte>22</Aerzte>
+<Stationsschwestern>14</Stationsschwestern>
+<Krankenschwestern>66</Krankenschwestern>
+<Schwesternschuelerinnen>29</Schwesternschuelerinnen>
+</Chir>
+<Gyn>
+<Aerzte>7</Aerzte>
+<Stationsschwestern>6</Stationsschwestern>
+<Krankenschwestern>28</Krankenschwestern>
+<Schwesternschuelerinnen>12</Schwesternschuelerinnen>
+</Gyn>
+</PoolingVerg>
+</PersonalPool>
+</EntPersAbt>

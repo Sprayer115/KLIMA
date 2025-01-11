@@ -1,0 +1,20 @@
+Internal Medicine (Innere):
+
+Doctors: Min 1, Max 100
+Head Nurses: Min 1, Max 30
+Nurses: Min 1, Max 200
+Nursing Students: Min 1, Max 50
+
+Surgery (Chirurgie):
+
+Doctors: Min 1, Max 100
+Head Nurses: Min 1, Max 30
+Nurses: Min 1, Max 200
+Nursing Students: Min 1, Max 50
+
+Gynecology (Gynäkologie):
+
+Doctors: Min 1, Max 80
+Head Nurses: Min 1, Max 25
+Nurses: Min 1, Max 150
+Nursing Students: Min 1, Max 40

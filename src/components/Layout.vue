@@ -39,7 +39,7 @@
               <span class="text-sm text-black dark:text-white">Dateneingabe</span>
             </Button>
           </DropdownMenuTrigger>
-          <DropdownMenuContent class="w-56" align="end" sideOffset="0">
+          <DropdownMenuContent class="w-56" align="end">
             <DropdownMenuLabel>Dateneingabe</DropdownMenuLabel>
             <DropdownMenuSeparator />
             <DropdownMenuItem 

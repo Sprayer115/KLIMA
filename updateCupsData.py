@@ -72,5 +72,5 @@ def update_all_files(directory):
 # Example usage
 if __name__ == "__main__":
     # Specify the directory containing your CUPS analysis files
-    directory = "autosave"  # Current directory - modify as needed
+    directory = "C:/Users/iLux1/Nextcloud/Bachelorarbeit/KLIMA/Tasks/Aider Tasks"  # Current directory - modify as needed
     update_all_files(directory)

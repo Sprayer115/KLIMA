@@ -1,27 +1,33 @@
 <template>
-  <div class="min-h-screen dark:bg-slate-950">
-    <div class="border-b dark:border-slate-800">
+  <div class="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-300">
+    <header class="border-b border-gray-200 dark:border-gray-700">
       <div class="flex h-16 items-center px-4">
-        <div class="text-xl font-bold dark:text-white">
+        <div class="text-xl font-bold text-gray-800 dark:text-white">
           <router-link to="/">KLIMA</router-link>
         </div>
         <nav v-if="isAuthenticated" class="mx-6 flex items-center space-x-4">
           <router-link 
             to="/" 
-            class="text-sm font-medium dark:text-slate-300 dark:hover:text-white transition-colors"
+            class="text-sm font-medium text-gray-700 dark:text-gray-300 dark:hover:text-white transition-colors"
           >
             Dashboard
           </router-link>
           <router-link 
             to="/goals" 
-            class="text-sm font-medium dark:text-slate-300 dark:hover:text-white transition-colors"
+            class="text-sm font-medium text-gray-700 dark:text-gray-300 dark:hover:text-white transition-colors"
           >
             Ziele
           </router-link>
           <router-link 
+            to="/results" 
+            class="text-sm font-medium text-gray-700 dark:text-gray-300 dark:hover:text-white transition-colors"
+          >
+            Ergebnisse
+          </router-link>
+          <router-link 
             v-if="isAdmin" 
             to="/settings" 
-            class="text-sm font-medium dark:text-slate-300 dark:hover:text-white transition-colors"
+            class="text-sm font-medium text-gray-700 dark:text-gray-300 dark:hover:text-white transition-colors"
           >
             Settings
           </router-link>
@@ -32,11 +38,11 @@
           <DropdownMenuTrigger asChild>
             <Button variant="ghost" class="relative h-8 rounded-full flex items-center space-x-2">
               <span class="sr-only">Navigation</span>
-              <svg class="w-6 h-6 text-black dark:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg class="w-6 h-6 text-gray-800 dark:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
                   d="M4 6h16M4 12h16M4 18h16" />
               </svg>
-              <span class="text-sm text-black dark:text-white">Dateneingabe</span>
+              <span class="text-sm text-gray-800 dark:text-white">Dateneingabe</span>
             </Button>
           </DropdownMenuTrigger>
           <DropdownMenuContent class="w-56" align="end">
@@ -57,10 +63,10 @@
           <NavBar />
         </div>
       </div>
-    </div>
-    <div class="flex-1 p-8 dark:text-slate-200">
+    </header>
+    <main class="flex-1 p-8 text-gray-800 dark:text-gray-200 transition-colors duration-300">
       <router-view />
-    </div>
+    </main>
   </div>
 </template>
 
@@ -86,7 +92,7 @@ const isAdmin = computed(() => auth.user?.role === 'admin')
 const router = useRouter()
 const route = useRoute()
 
-// Definiere die Input-Routen für das Dropdown
+// Define the input routes for the dropdown
 const inputRoutes = [
   { name: 'Allgemein', path: '/general-input', nameLabel: 'Allgemeine Eingaben' },
   { name: 'Fallpauschalen', path: '/fallpauschalen', nameLabel: 'Fallpauschalen' },
@@ -96,12 +102,12 @@ const inputRoutes = [
   { name: 'VerweildauerUndZentralbereiche', path: '/verweildauer-und-zentralbereiche', nameLabel: 'Verweildauer und Zentralbereiche' }
 ]
 
-// Navigiere zu der ausgewählten Route
+// Navigate to the selected route
 const navigate = (path) => {
   router.push(path)
 }
 
-// Prüfe, ob die gegebene Route aktuell aktiv ist
+// Check if the given route is currently active
 const isActive = (name) => {
   const matchedRoute = inputRoutes.find(r => r.name === name)
   return matchedRoute ? route.path === matchedRoute.path : false
@@ -109,11 +115,18 @@ const isActive = (name) => {
 </script>
 
 <style scoped>
-/* Optional: Füge hier spezifische Styles für das Dropdown hinzu */
+/* Optional: Add specific styles for the DropdownMenu here */
 .bg-gray-200 {
   background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
 }
 .dark\:bg-gray-700 {
   background-color: rgba(55, 65, 81, var(--tw-bg-opacity));
+}
+
+.transition-colors {
+  transition-property: background-color, border-color, color, fill, stroke;
+}
+.duration-300 {
+  transition-duration: 300ms;
 }
 </style>

@@ -64,7 +64,7 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, onMounted } from 'vue'
 import { 
   DropdownMenu,
   DropdownMenuContent,
@@ -89,6 +89,12 @@ const auth = useAuthStore()
 const isAuthenticated = computed(() => !!auth.token)
 
 const isAdvancing = ref(false)
+
+onMounted(() => {
+  if (isAuthenticated.value) {
+    gameDataStore.load()
+  }
+})
 
 // Methode zum Logout
 const logout = () => {

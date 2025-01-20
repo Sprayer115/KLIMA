@@ -446,7 +446,7 @@ async def advance_period(current_user: dict = Depends(get_current_user)):
     # Copy current period decisions to next period
     current_period_str = str(current_period)
     next_period_str = str(next_period)
-    
+    # TODO: Result speichern
     game_state["decisions"][next_period_str] = {
         "data": game_state["decisions"][current_period_str]["data"].copy(),
         "timestamp": datetime.now().timestamp()

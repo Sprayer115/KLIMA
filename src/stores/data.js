@@ -98,7 +98,7 @@ export const useGameDataStore = defineStore('game', {
         console.log('Server data:', serverData)
         console.log('Current period data:', this.currentPeriodData)
         // Überprüfe, ob die Serverdaten neuer sind als die lokal gespeicherten
-        if (!this.currentPeriodData.decisions.timestamp || 
+        if (this.currentPeriodData == null || !this.currentPeriodData.decisions.timestamp || 
             serverData.periodData.decisions.timestamp > this.currentPeriodData.decisions.timestamp) {
           this.metadata = serverData.metadata
           this.currentPeriodData = serverData.periodData

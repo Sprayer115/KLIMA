@@ -4,28 +4,28 @@
     <Table class="w-full mt-4">
       <TableHeader>
         <TableRow>
-          <TableHead class="w-[100px] dark:text-slate-300">DFK</TableHead>
-          <TableHead class="dark:text-slate-300">Bezeichnung</TableHead>
-          <TableHead class="dark:text-slate-300 text-right">Beantrag (€)</TableHead>
+          <TableHead class="w-[100px] dark:text-stone-300">DFK</TableHead>
+          <TableHead class="dark:text-stone-300">Bezeichnung</TableHead>
+          <TableHead class="dark:text-stone-300 text-right">Beantrag (€)</TableHead>
         </TableRow>
       </TableHeader>
       <TableBody>
         <template v-for="(group, groupIndex) in groupedCategories" :key="groupIndex">
-          <TableRow class="bg-gray-100 dark:bg-slate-700">
+          <TableRow class="bg-gray-100 dark:bg-stone-700">
             <TableCell colspan="3" class="font-semibold dark:text-white">{{ group.name }}</TableCell>
           </TableRow>
-          <TableRow v-for="(category, index) in group.categories" :key="category.id" class="border-t dark:border-slate-700">
-            <TableCell class="dark:text-slate-300">DFK {{ category.id }}</TableCell>
-            <TableCell class="dark:text-slate-300">{{ category.label }}</TableCell>
-            <TableCell class="text-right dark:text-slate-300">
+          <TableRow v-for="(category, index) in group.categories" :key="category.id" class="border-t dark:border-stone-700">
+            <TableCell class="dark:text-stone-300">DFK {{ category.id }}</TableCell>
+            <TableCell class="dark:text-stone-300">{{ category.label }}</TableCell>
+            <TableCell class="text-right dark:text-stone-300">
               <div class="flex items-center justify-end">
-                <input
+                <Input
                   type="number"
                   v-model.number="fallpauschalen.fallpauschalen[category.id - 1]"
                   @change="handleChange(category.id - 1, $event.target.value)"
                   min="0"
                   max="15000"
-                  class="w-24 p-1 border rounded dark:bg-slate-800 dark:text-white dark:border-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  class="w-24 p-1 border rounded dark:bg-stone-800 dark:text-white dark:border-stone-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
                 <span class="ml-2">€</span>
               </div>
@@ -52,6 +52,7 @@ import {
   TableHeader,
   TableRow,
 } from '@/components/ui/table'
+import { Input } from '@/components/ui/input'
 import { Button } from '@/components/ui/button' // Importiere die Button-Komponente von Shadcn
 import { useFallpauschalenStore } from '@/stores/fallpauschalen'
 import { useGameDataStore } from '@/stores/data'

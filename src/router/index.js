@@ -52,7 +52,7 @@ const routes = [
       {
         path: '/results',
         name: 'Results',
-        component: () => import('@/views/Results.vue'),
+        component: () => import('@/views/Resultsv2.vue'),
         meta: { requiresAuth: true }
       },
       {

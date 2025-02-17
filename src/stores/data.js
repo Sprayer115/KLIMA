@@ -17,6 +17,9 @@ export const useGameDataStore = defineStore('game', {
           generalInput: {},
           personalUndAbteilungen: {},
           fallpauschalen: [],
+          forschung: [],
+          leistungsangebot: [],
+          verweildauer: [],
         },
         timestamp: null
       }

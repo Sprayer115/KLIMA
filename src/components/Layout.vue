@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen dark:bg-stone-950 ">
-    <div class="border-b dark:border-slate-800">
+    <div class="border-b dark:border-stone-800">
       <div class="flex h-16 items-center px-4">
         <div class="text-xl font-bold dark:text-white">
           <router-link to="/" >KLIMA</router-link>
@@ -9,7 +9,7 @@
           <!-- Ziele Link -->
           <router-link 
             to="/goals" 
-            class="text-sm font-medium text-gray-700 dark:text-slate-300 hover:text-gray-900 dark:hover:text-white transition-colors"
+            class="text-sm font-medium text-gray-700 dark:text-stone-300 hover:text-gray-900 dark:hover:text-white transition-colors"
             active-class="text-gray-900 dark:text-white"
             exact
           >
@@ -19,7 +19,7 @@
           <!-- Dateneingabe Dropdown -->
           <div class="relative group">
             <button 
-              class="text-sm font-medium text-gray-700 dark:text-slate-300 hover:text-gray-900 dark:hover:text-white transition-colors focus:outline-none flex items-center"
+              class="text-sm font-medium text-gray-700 dark:text-stone-300 hover:text-gray-900 dark:hover:text-white transition-colors focus:outline-none flex items-center"
               :class="{'text-gray-900 dark:text-white': isDateneingabeActive}"
               @click="toggleDropdown"
               aria-haspopup="true"
@@ -32,48 +32,48 @@
             </button>
             <div 
               v-show="isDropdownOpen" 
-              class="absolute mt-2 w-48 bg-white dark:bg-slate-800 rounded-md shadow-lg transition-opacity z-10"
+              class="absolute mt-2 w-48 bg-white dark:bg-stone-800 rounded-md shadow-lg transition-opacity z-10"
               @mouseleave="isDropdownOpen = false"
             >
               <router-link
                 to="/general-input"
-                class="block px-4 py-2 text-sm text-gray-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700"
-                active-class="bg-slate-200 dark:bg-slate-700 text-black dark:text-white"
+                class="block px-4 py-2 text-sm text-gray-700 dark:text-stone-200 hover:bg-stone-100 dark:hover:bg-stone-700"
+                active-class="bg-stone-200 dark:bg-stone-700 text-black dark:text-white"
               >
                 Allgemeine Eingabe
               </router-link>
               <router-link
                 to="/fallpauschalen"
-                class="block px-4 py-2 text-sm text-gray-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700"
-                active-class="bg-slate-200 dark:bg-slate-700 text-black dark:text-white"
+                class="block px-4 py-2 text-sm text-gray-700 dark:text-stone-200 hover:bg-stone-100 dark:hover:bg-stone-700"
+                active-class="bg-stone-200 dark:bg-stone-700 text-black dark:text-white"
               >
                 Fallpauschalen
               </router-link>
               <router-link
                 to="/forschung-investition-und-zgb"
-                class="block px-4 py-2 text-sm text-gray-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700"
-                active-class="bg-slate-200 dark:bg-slate-700 text-black dark:text-white"
+                class="block px-4 py-2 text-sm text-gray-700 dark:text-stone-200 hover:bg-stone-100 dark:hover:bg-stone-700"
+                active-class="bg-stone-200 dark:bg-stone-700 text-black dark:text-white"
               >
                 Forschung, Investition & ZGB
               </router-link>
               <router-link
                 to="/leistungsangebot"
-                class="block px-4 py-2 text-sm text-gray-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700"
-                active-class="bg-slate-200 dark:bg-slate-700 text-black dark:text-white"
+                class="block px-4 py-2 text-sm text-gray-700 dark:text-stone-200 hover:bg-stone-100 dark:hover:bg-stone-700"
+                active-class="bg-stone-200 dark:bg-stone-700 text-black dark:text-white"
               >
                 Leistungsangebot
               </router-link>
               <router-link
                 to="/verweildauer-und-zentralbereiche"
-                class="block px-4 py-2 text-sm text-gray-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700"
-                active-class="bg-slate-200 dark:bg-slate-700 text-black dark:text-white"
+                class="block px-4 py-2 text-sm text-gray-700 dark:text-stone-200 hover:bg-stone-100 dark:hover:bg-stone-700"
+                active-class="bg-stone-200 dark:bg-stone-700 text-black dark:text-white"
               >
                 Verweildauer & Zentralbereiche
               </router-link>
               <router-link
                 to="/personal-und-abteilungen"
-                class="block px-4 py-2 text-sm text-gray-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700"
-                active-class="bg-slate-200 dark:bg-slate-700 text-black dark:text-white"
+                class="block px-4 py-2 text-sm text-gray-700 dark:text-stone-200 hover:bg-stone-100 dark:hover:bg-stone-700"
+                active-class="bg-stone-200 dark:bg-stone-700 text-black dark:text-white"
               >
                 Personal & Abteilungen
               </router-link>
@@ -83,7 +83,7 @@
           <!-- Ergebnisse Vergleich Link -->
           <router-link 
             to="/results" 
-            class="text-sm font-medium text-gray-700 dark:text-slate-300 hover:text-gray-900 dark:hover:text-white transition-colors"
+            class="text-sm font-medium text-gray-700 dark:text-stone-300 hover:text-gray-900 dark:hover:text-white transition-colors"
             active-class="text-gray-900 dark:text-white"
           >
             Ergebnisse Vergleich
@@ -96,7 +96,7 @@
           <router-link 
             v-if="isAdmin" 
             to="/settings" 
-            class="text-sm font-medium text-gray-700 dark:text-slate-300 hover:text-gray-900 dark:hover:text-white transition-colors"
+            class="text-sm font-medium text-gray-700 dark:text-stone-300 hover:text-gray-900 dark:hover:text-white transition-colors"
             active-class="text-gray-900 dark:text-white"
           >
             Settings
@@ -105,7 +105,7 @@
         </div>
       </div>
     </div>
-    <div class="flex-1 p-8 dark:text-slate-200">
+    <div class="flex-1 p-8 dark:text-stone-200">
       <router-view />
     </div>
   </div>

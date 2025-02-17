@@ -65,6 +65,12 @@ const routes = [
         name: 'VerweildauerUndZentralbereiche',
         component: () => import('@/views/input/VerweildauerUndZentralbereiche.vue'),
         meta: { requiresAuth: true }
+      },
+      {
+        path: 'results',
+        name: 'Results',
+        component: () => import('@/views/Results.vue'),
+        meta: { requiresAuth: true }
       }
     ]
   },

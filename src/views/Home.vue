@@ -5,5 +5,10 @@
   </template>
   
   <script setup>
-  import { useAuthStore } from '@/stores/auth'
+  import { onMounted } from 'vue'
+  import { initializeAllStores } from '../initStores'
+
+  onMounted(async () => {
+    await initializeAllStores()
+  })
   </script>

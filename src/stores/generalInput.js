@@ -31,14 +31,17 @@ export const useGeneralInputStore = defineStore('generalInput', {
 
   actions: {
     updateGeneralInput(data) {
-      this.emergencyCapacity = data.emergencyCapacity
-      this.operationalDecisions = data.operationalDecisions
-      this.publicRelationsBudget = data.publicRelationsBudget
-      this.surchargePercentages = data.surchargePercentages
-      this.materialCostMarkup = data.materialCostMarkup
-      this.dailyFoodAllowance = data.dailyFoodAllowance
-      this.costModificationsSachmittel = data.costModificationsSachmittel
-      this.costModificationsLeistungskosten = data.costModificationsLeistungskosten
+      if(data.emergencyCapacity) {
+        this.emergencyCapacity = data.emergencyCapacity
+        this.operationalDecisions = data.operationalDecisions
+        this.publicRelationsBudget = data.publicRelationsBudget
+        this.surchargePercentages = data.surchargePercentages
+        this.materialCostMarkup = data.materialCostMarkup
+        this.dailyFoodAllowance = data.dailyFoodAllowance
+        this.costModificationsSachmittel = data.costModificationsSachmittel
+        this.costModificationsLeistungskosten = data.costModificationsLeistungskosten
+      }
+
       useGameDataStore().updateModule('generalInput', this.$state)
     },
 
@@ -57,9 +60,12 @@ export const useGeneralInputStore = defineStore('generalInput', {
       if (stored) {
         const parsed = JSON.parse(stored)
         const data = parsed.currentPeriodData.decisions.data
+
         if (data.generalInput) {
           this.$state = { ...data.generalInput }
-        } else {gameDataStore.currentPeriodData.decisions.data.personalUndAbteilungen = this.$state}
+          this.updateGeneralInput(data.generalInput)
+
+        } else {gameDataStore.currentPeriodData.decisions.data.generalInput = this.$state}
       }
     }
   }

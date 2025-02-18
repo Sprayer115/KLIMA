@@ -105,7 +105,7 @@ const logout = () => {
 // Methode zum Voranschreiten der Periode
 const advancePeriod = async () => {
   if (isAdvancing.value) return
-
+  gameDataStore.saveToServer()
   isAdvancing.value = true
 
   try {

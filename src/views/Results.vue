@@ -492,12 +492,13 @@ const generatePeriods = async () => {
   const current = getCurrentPeriod();
   periods.value = Array.from({ length: current + 1 }, (_, i) => i);
   selectedPeriod1.value = current;
-  selectedPeriod2.value = current > 0 ? current - 1 : 0; // Initial unterschiedliche Perioden
+  selectedPeriod2.value = current > 1 ? current - 1 : 0; // Initial unterschiedliche Perioden
 };
 
 // Funktion zum Abrufen der Daten
 const fetchData = async (dataType: 'data1' | 'data2') => {
   try {
+    console.log("selected periods", selectedPeriod1.value, selectedPeriod2.value);
     const token = authStore.accessToken || localStorage.getItem('token');
     const headers = {
       Authorization: `Bearer ${token}`,

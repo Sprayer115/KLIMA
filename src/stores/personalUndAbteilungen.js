@@ -173,7 +173,6 @@ export const usePersonalUndAbteilungenStore = defineStore('personalUndAbteilunge
       if (stored) {
         const parsed= JSON.parse(stored)
         const data = parsed.currentPeriodData.decisions.data
-
         if (data.personalUndAbteilungen) {
           this.updatePersonalUndAbteilungen(data.personalUndAbteilungen)
         } else {

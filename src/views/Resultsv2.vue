@@ -81,9 +81,9 @@
   const store = useGameDataStore()
   const authStore = useAuthStore()
   const maxPeriod = computed(() => store.metadata.currentPeriod)
-  const periods = computed(() => Array.from({ length: maxPeriod.value+1 }, (_, i) => i))
-  const selectedPeriod1 = ref(String(maxPeriod.value))
-  const selectedPeriod2 = ref(String(maxPeriod.value > 1 ? maxPeriod.value - 1 : 1))
+  const periods = computed(() => Array.from({ length: maxPeriod.value }, (_, i) => i))
+  const selectedPeriod1 = ref(String(maxPeriod.value > 1 ? maxPeriod.value - 1 : 0))
+  const selectedPeriod2 = ref(String(maxPeriod.value > 1 ? maxPeriod.value : 0))
   const selectedCategory = ref('')
   const selectedSubCategory = ref('')
   
@@ -281,7 +281,9 @@
   }
   
   const loadAllPeriodData = () => {
-      console.log("loadAllPeriodData called")
+    console.log("loadAllPeriodData called")
+    console.log('Perioden:', periods.value, selectedPeriod1.value, selectedPeriod2.value);
+
     loadPeriodData(selectedPeriod1, currentData1)
     loadPeriodData(selectedPeriod2, currentData2)
   }

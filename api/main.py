@@ -430,6 +430,35 @@ async def get_period(
         "results": game_state.get("results", {}).get(period_str, {})
     }
 
+def advance_game_state(game_state):
+    """
+    Advances the game state to the next period.
+    Copies the decisions from the current period to the next period,
+    updates the metadata (currentPeriod and lastModified) and
+    performs any additional JSON edits needed.
+    """
+    current_period = game_state["metadata"]["currentPeriod"]
+    next_period = current_period + 1
+    if next_period > 10:
+        raise HTTPException(status_code=400, detail="Maximum period reached")
+    current_period_str = str(current_period)
+    next_period_str = str(next_period)
+    # Copy current period decisions to the next period with a fresh timestamp.
+    game_state["decisions"][next_period_str] = {
+        "data": game_state["decisions"][current_period_str]["data"].copy(),
+        "timestamp": datetime.now().timestamp()
+    }
+    # Update metadata for the new period.
+    game_state["metadata"]["currentPeriod"] = next_period
+    game_state["metadata"]["lastModified"] = datetime.now().isoformat()
+
+    # Additional JSON edits can be performed here if needed.
+    # For example:
+    # game_state["decisions"][next_period_str]["data"]["newKey"] = "newValue"
+    
+    return game_state
+
+# In the existing /api/periods/advance endpoint, replace the inline code with:
 @app.post("/api/periods/advance")
 async def advance_period(current_user: dict = Depends(get_current_user)):
     game_file = get_user_game_file(current_user['email'])
@@ -437,26 +466,13 @@ async def advance_period(current_user: dict = Depends(get_current_user)):
         raise HTTPException(status_code=404, detail="Game not found")
     
     game_state = json.loads(game_file.read_text())
-    current_period = game_state["metadata"]["currentPeriod"]
-    next_period = current_period + 1
     
-    if next_period > 10:
-        raise HTTPException(status_code=400, detail="Maximum period reached")
+    # Use the helper function to advance the game state.
+    game_state = advance_game_state(game_state)
     
-    # Copy current period decisions to next period
-    current_period_str = str(current_period)
-    next_period_str = str(next_period)
-    # TODO: Result speichern
-    game_state["decisions"][next_period_str] = {
-        "data": game_state["decisions"][current_period_str]["data"].copy(),
-        "timestamp": datetime.now().timestamp()
-    }
+    next_period_str = str(game_state["metadata"]["currentPeriod"])
     
-    # Update metadata
-    game_state["metadata"]["currentPeriod"] = next_period
-    game_state["metadata"]["lastModified"] = datetime.now().isoformat()
-    
-    # Save updated game state
+    # Save updated game state.
     game_file.write_text(json.dumps(game_state))
     
     return {

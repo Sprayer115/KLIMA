@@ -82,8 +82,8 @@
   const authStore = useAuthStore()
   const maxPeriod = computed(() => store.metadata.currentPeriod -1)
   const periods = computed(() => Array.from({ length: maxPeriod.value +1 }, (_, i) => i))
-  const selectedPeriod1 = ref(String(maxPeriod.value > 1 ? maxPeriod.value - 1 : 0))
-  const selectedPeriod2 = ref(String(maxPeriod.value > 1 ? maxPeriod.value : 0))
+  const selectedPeriod1 = String(maxPeriod.value > 1 ? maxPeriod.value - 1 : 0)
+  const selectedPeriod2 = String(maxPeriod.value > 1 ? maxPeriod.value : 0)
   const selectedCategory = ref('')
   const selectedSubCategory = ref('')
   
@@ -208,7 +208,7 @@
   
   const loadPeriodData = async (period, currentData) => {
     try {
-      const response = await fetch(`/api/periods/${period.value}`, {
+      const response = await fetch(`/api/periods/${period}`, {
         headers: {
           'Authorization': `Bearer ${authStore.token}`
         }

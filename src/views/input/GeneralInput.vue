@@ -4,47 +4,49 @@
     <form @submit.prevent="handleSubmit">
       <section class="section mb-4 border p-4 rounded">
         <table class="w-full">
-          <tr class="border-b separator">
-            <td><Label for="emergencyCapacity" class="min-w-48">Notfallkapazität (%)</Label></td>
-            <td>
-              <Input
-                type="number"
-                id="emergencyCapacity"
-                v-model="emergencyCapacity"
-                @update:model-value="updateGeneralInput"
-                step="0.1"
-                min="0"
-                max="100"
-                class="w-16 p-1 border rounded right-aligned mb-4"
-              />
-            </td>
-          </tr>
-          <tr class="border-b separator" v-for="(decision, index) in operationalDecisions" :key="index">
-            <td><Label :for="'decision-' + index" class="min-w-48">{{ decision.label }}</Label></td>
-            <td>
-              <input
-                type="checkbox"
-                :id="'decision-' + index"
-                v-model="decision.checked"
-                @change="updateGeneralInput"
-                class="styled-checkbox"
-              />
-            </td>
-          </tr>
-          <tr class="border-b separator">
-            <td><Label for="publicRelationsBudget" class="min-w-48">Budget (€)</Label></td>
-            <td>
-              <Input
-                type="number"
-                id="publicRelationsBudget"
-                v-model="publicRelationsBudget"
-                @update:model-value="updateGeneralInput"
-                step="200"
-                min="0"
-                class="w-16 p-1 border rounded right-aligned"
-              />
-            </td>
-          </tr>
+          <tbody>
+            <tr class="border-b separator">
+              <td><Label for="emergencyCapacity" class="min-w-48">Notfallkapazität (%)</Label></td>
+              <td>
+                <Input
+                  type="number"
+                  id="emergencyCapacity"
+                  v-model="emergencyCapacity"
+                  @update:model-value="updateGeneralInput"
+                  step="0.1"
+                  min="0"
+                  max="100"
+                  class="w-16 p-1 border rounded right-aligned mb-4"
+                />
+              </td>
+            </tr>
+            <tr class="border-b separator" v-for="(decision, index) in operationalDecisions" :key="index">
+              <td><Label :for="'decision-' + index" class="min-w-48">{{ decision.label }}</Label></td>
+              <td>
+                <input
+                  type="checkbox"
+                  :id="'decision-' + index"
+                  v-model="decision.checked"
+                  @change="updateGeneralInput"
+                  class="styled-checkbox"
+                />
+              </td>
+            </tr>
+            <tr class="border-b separator">
+              <td><Label for="publicRelationsBudget" class="min-w-48">Budget (€)</Label></td>
+              <td>
+                <Input
+                  type="number"
+                  id="publicRelationsBudget"
+                  v-model="publicRelationsBudget"
+                  @update:model-value="updateGeneralInput"
+                  step="200"
+                  min="0"
+                  class="w-16 p-1 border rounded right-aligned"
+                />
+              </td>
+            </tr>
+          </tbody>
         </table>
       </section>
       <section class="section mb-4 border p-4 rounded">

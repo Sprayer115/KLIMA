@@ -479,10 +479,6 @@ async def advance_period(current_user: dict = Depends(get_current_user)):
     next_period_str = str(game_state["metadata"]["currentPeriod"])
     
     game_state["results"][str(current_period)] = game_state['results']["0"]
-    # Save updated game state.
-    # Update metadata
-    game_state["metadata"]["currentPeriod"] = next_period
-    game_state["metadata"]["lastModified"] = datetime.now().isoformat()
     
     # Save updated game state
     game_file.write_text(json.dumps(game_state))

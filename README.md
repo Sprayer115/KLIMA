@@ -1,5 +1,6 @@
 # Vue 3 + Vite
 ## Backend:
+pip install -r requirements.txt
 python -m uvicorn api.main:app 
 
 ## Frontend:

@@ -41,78 +41,80 @@
       <section class="section mb-4 p-4 rounded">
         <h3 class="text-xl font-semibold mb-2">Investition</h3>
         <table class="w-full">
-          <tr>
-            <td class="p-2">Diagnosegerät</td>
-            <td class="p-2">Preis:</td>
-            <td class="p-2">1500000€</td>
-            <td class="p-2">
-              <Select v-model="investition.Diagnose" @update:model-value="updateForschung">
-                <SelectTrigger>
-                  <SelectValue placeholder="Auswählen" />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectGroup>
-                    <SelectItem value="btBeschaffen">Kaufen</SelectItem>
-                    <SelectItem value="btNichtGeplant">Nicht Kaufen</SelectItem>
-                  </SelectGroup>
-                </SelectContent>
-              </Select>
-            </td>
-          </tr>
-          <tr>
-            <td class="p-2">Operationsausrüstung</td>
-            <td class="p-2">Preis:</td>
-            <td class="p-2">330000€</td>
-            <td class="p-2">
-              <Select v-model="investition.Operationsbesteck" @update:model-value="updateForschung">
-                <SelectTrigger>
-                  <SelectValue placeholder="Auswählen" />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectGroup>
-                    <SelectItem value="btBeschaffen">Kaufen</SelectItem>
-                    <SelectItem value="btNichtGeplant">Nicht Kaufen</SelectItem>
-                  </SelectGroup>
-                </SelectContent>
-              </Select>
-            </td>
-          </tr>
-          <tr>
-            <td class="p-2">Tablettsystem</td>
-            <td class="p-2">Preis:</td>
-            <td class="p-2">400000€</td>
-            <td class="p-2">
-              <Select v-model="investition.Tablettsystem" @update:model-value="updateForschung">
-                <SelectTrigger>
-                  <SelectValue placeholder="Auswählen" />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectGroup>
-                    <SelectItem value="btBeschaffen">Kaufen</SelectItem>
-                    <SelectItem value="btNichtGeplant">Nicht Kaufen</SelectItem>
-                  </SelectGroup>
-                </SelectContent>
-              </Select>
-            </td>
-          </tr>
-          <tr>
-            <td class="p-2">Kieferchir. Ausrüstung</td>
-            <td class="p-2">Preis:</td>
-            <td class="p-2">700000€</td>
-            <td class="p-2">
-              <Select v-model="investition.Kieferchirurgie" @update:model-value="updateForschung">
-                <SelectTrigger>
-                  <SelectValue placeholder="Auswählen" />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectGroup>
-                    <SelectItem value="btBeschaffen">Kaufen</SelectItem>
-                    <SelectItem value="btNichtGeplant">Nicht Kaufen</SelectItem>
-                  </SelectGroup>
-                </SelectContent>
-              </Select>
-            </td>
-          </tr>
+          <tbody>
+            <tr>
+              <td class="p-2">Diagnosegerät</td>
+              <td class="p-2">Preis:</td>
+              <td class="p-2">1500000€</td>
+              <td class="p-2">
+                <Select v-model="investition.Diagnose" @update:model-value="updateForschung">
+                  <SelectTrigger>
+                    <SelectValue placeholder="Auswählen" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectGroup>
+                      <SelectItem value="btBeschaffen">Kaufen</SelectItem>
+                      <SelectItem value="btNichtGeplant">Nicht Kaufen</SelectItem>
+                    </SelectGroup>
+                  </SelectContent>
+                </Select>
+              </td>
+            </tr>
+            <tr>
+              <td class="p-2">Operationsausrüstung</td>
+              <td class="p-2">Preis:</td>
+              <td class="p-2">330000€</td>
+              <td class="p-2">
+                <Select v-model="investition.Operationsbesteck" @update:model-value="updateForschung">
+                  <SelectTrigger>
+                    <SelectValue placeholder="Auswählen" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectGroup>
+                      <SelectItem value="btBeschaffen">Kaufen</SelectItem>
+                      <SelectItem value="btNichtGeplant">Nicht Kaufen</SelectItem>
+                    </SelectGroup>
+                  </SelectContent>
+                </Select>
+              </td>
+            </tr>
+            <tr>
+              <td class="p-2">Tablettsystem</td>
+              <td class="p-2">Preis:</td>
+              <td class="p-2">400000€</td>
+              <td class="p-2">
+                <Select v-model="investition.Tablettsystem" @update:model-value="updateForschung">
+                  <SelectTrigger>
+                    <SelectValue placeholder="Auswählen" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectGroup>
+                      <SelectItem value="btBeschaffen">Kaufen</SelectItem>
+                      <SelectItem value="btNichtGeplant">Nicht Kaufen</SelectItem>
+                    </SelectGroup>
+                  </SelectContent>
+                </Select>
+              </td>
+            </tr>
+            <tr>
+              <td class="p-2">Kieferchir. Ausrüstung</td>
+              <td class="p-2">Preis:</td>
+              <td class="p-2">700000€</td>
+              <td class="p-2">
+                <Select v-model="investition.Kieferchirurgie" @update:model-value="updateForschung">
+                  <SelectTrigger>
+                    <SelectValue placeholder="Auswählen" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectGroup>
+                      <SelectItem value="btBeschaffen">Kaufen</SelectItem>
+                      <SelectItem value="btNichtGeplant">Nicht Kaufen</SelectItem>
+                    </SelectGroup>
+                  </SelectContent>
+                </Select>
+              </td>
+            </tr>
+          </tbody>
         </table>
       </section>
 

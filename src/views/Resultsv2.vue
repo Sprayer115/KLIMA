@@ -80,8 +80,8 @@
   
   const store = useGameDataStore()
   const authStore = useAuthStore()
-  const maxPeriod = computed(() => store.metadata.currentPeriod)
-  const periods = computed(() => Array.from({ length: maxPeriod.value }, (_, i) => i))
+  const maxPeriod = computed(() => store.metadata.currentPeriod -1)
+  const periods = computed(() => Array.from({ length: maxPeriod.value +1 }, (_, i) => i))
   const selectedPeriod1 = ref(String(maxPeriod.value > 1 ? maxPeriod.value - 1 : 0))
   const selectedPeriod2 = ref(String(maxPeriod.value > 1 ? maxPeriod.value : 0))
   const selectedCategory = ref('')
@@ -193,9 +193,7 @@
   }
   
   const subCategories = computed(() => {
-    console.log("selectedCategory", selectedCategory.value)
     const keys = Object.keys(currentData1.value[selectedCategory.value] || {})
-    console.log('SubCategories:', keys)
     return keys
   })
   

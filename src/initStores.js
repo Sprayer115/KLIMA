@@ -36,7 +36,7 @@ export async function initializeAllStores() {
       // Rufe je nach Modul die jeweilige Update-Funktion mit dem Default-State auf.
       switch (moduleName) {
         case 'leistungsangebot':
-          stores[moduleName].updateLeistungsangebotInput(stores[moduleName].$state)
+          stores[moduleName].updateLeistungsangebotInput(stores[moduleName].$state.leistung)
           break
         case 'forschung':
           stores[moduleName].updateForschungInput({
@@ -67,5 +67,6 @@ export async function initializeAllStores() {
           break
       }
     }
+    gameStore.saveToServer()
   })
 }

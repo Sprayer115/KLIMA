@@ -28,6 +28,7 @@ export const useLeistungsangebotStore = defineStore('leistungsangebot', {
       this.leistung = { ...data }
       useGameDataStore().updateModule('leistungsangebot', this.$state)
     },
+    
     updateFromGameData(data) {
       if (data.leistungsangebot) {
         this.$state = { ...data.leistungsangebot }

@@ -102,9 +102,9 @@ const initData = async () => {
 onMounted(initData)
 onActivated(initData)
 
-// Bei Änderung eines DRG-Feldes wird der Wert direkt aktualisiert: 1 = ausgewählt, -1 = nicht gewählt
+// Bei Änderung eines DRG-Feldes wird der Wert direkt aktualisiert: 1 = ausgewählt, 0 = nicht gewählt
 const updateDrg = (number: number, checked: boolean) => {
-  leistung.value['DRG' + number] = checked ? 1 : -1
+  leistung.value['DRG' + number] = checked ? 1 : 0
   store.updateLeistungsangebotInput({ ...leistung.value })
 }
 

@@ -11,4 +11,5 @@
   onMounted(async () => {
     await initializeAllStores()
   })
+
   </script>

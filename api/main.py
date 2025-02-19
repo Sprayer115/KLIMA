@@ -292,6 +292,7 @@ async def change_password(
     return {"message": "Passwort erfolgreich geändert"}
 
 
+
 @app.get("/api/load", deprecated=True)
 async def load_game_data(current_user: dict = Depends(get_current_user)):
     print(f"Loading data for user: {current_user['email']}")
@@ -431,12 +432,12 @@ def advance_game_state(game_state):
     next_period_str = str(next_period)
     
     # Copy current period decisions to the next period with a new timestamp.
+
     game_state["decisions"][next_period_str] = {
         "data": game_state["decisions"][current_period_str]["data"].copy(),
         "timestamp": datetime.now().timestamp()
     }
-    
-    # Update metadata for the new period.
+        # Update metadata for the new period.
     game_state["metadata"]["currentPeriod"] = next_period
     game_state["metadata"]["lastModified"] = datetime.now().isoformat()
     
@@ -479,6 +480,11 @@ async def advance_period(current_user: dict = Depends(get_current_user)):
     
     game_state["results"][str(current_period)] = game_state['results']["0"]
     # Save updated game state.
+    # Update metadata
+    game_state["metadata"]["currentPeriod"] = next_period
+    game_state["metadata"]["lastModified"] = datetime.now().isoformat()
+    
+    # Save updated game state
     game_file.write_text(json.dumps(game_state))
     
     return {

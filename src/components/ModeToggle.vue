@@ -2,7 +2,7 @@
 <template>
   <DropdownMenu>
     <DropdownMenuTrigger asChild>
-      <Button variant="outline" size="icon" class="bg-background dark:bg-slate-950">
+      <Button variant="outline" size="icon" class="bg-background dark:bg-stone-950">
         <Icon icon="radix-icons:sun" 
               class="h-5 w-5 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
         <Icon icon="radix-icons:moon"
@@ -10,7 +10,7 @@
         <span class="sr-only">Toggle theme</span>
       </Button>
     </DropdownMenuTrigger>
-    <DropdownMenuContent align="end" class="dark:bg-slate-900">
+    <DropdownMenuContent align="end" class="dark:bg-stone-900">
       <DropdownMenuItem @click="mode = 'light'">Light</DropdownMenuItem>
       <DropdownMenuItem @click="mode = 'dark'">Dark</DropdownMenuItem>
       <DropdownMenuItem @click="mode = 'system'">System</DropdownMenuItem>

@@ -24,8 +24,10 @@ dist-ssr
 *.sw?
 users.db
 local
+storage/gamedata/*
 .aider.chat.history.md
 .aider.input.history
 .aider.tags.cache.v3/cache.db-wal
 .aider.tags.cache.v3/cache.db-shm
 .aider.tags.cache.v3/cache.db
+

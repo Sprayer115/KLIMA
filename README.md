@@ -3,6 +3,7 @@
 python -m uvicorn api.main:app 
 
 ## Frontend:
+npm install 
 npm run dev
 
 ## Backend TODO:
